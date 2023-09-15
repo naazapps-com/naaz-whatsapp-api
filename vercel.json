@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "naazapps-whatsapp-api",
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@vercel/node",
+      "config": {
+        "serverFiles": [
+          "wweb_auth/**"
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/app.js"
+    }
+  ]
+}

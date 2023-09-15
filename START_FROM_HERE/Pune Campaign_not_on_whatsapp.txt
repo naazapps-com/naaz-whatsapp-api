@@ -1,0 +1,1533 @@
+(3) +912024471591 :: Swad Bhel
+(4) +912025820786 :: Crown Restaurant
+(5) +912025896967 :: Divadkar Food
+(6) +912064001763 :: Suruchi Fast Food
+(7) +912132244468 :: Vikas Vihar Restaurant
+(8) +919325380610 :: Manohar Fast Food Parlour
+(9) +912025455101 :: Aangan Fast Restaurant
+(10) +912114231029 :: Prathmesh Fast Food Centre
+(11) +912025513141 :: Someshwar Bhavan
+(12) +912025531395 :: Savera Veg Restaurant
+(13) +912025449579 :: Supreme Corner
+(14) +912026121482 :: Laxmi Villas
+(15) +912024480385 :: Ashvamegh Restaurant
+(18) +912025452077 :: Guru Datta Hotel
+(21) +912024354900 :: Anandi Restaurant
+(22) +912025536978 :: Satkar Restaurant
+(23) +912025431922 :: Suvarnarekha Restaurant
+(25) +912024333856 :: New Refreshment House
+(27) +912024329922 :: Hotel Shivganga
+(28) +912027144202 :: Ganesh Restaurant
+(31) +912024436361 :: Chandar Vilas Upahar Gruha
+(32) +912025673671 :: Hotel Darshan
+(34) +912069467001 :: Hotel Roopa
+(35) +919325577282 :: Ayyers Restaurant
+(38) +912025425800 :: Kamath Family Restaurant
+(39) +919637740068 :: Chaitanya Restaurant
+(40) +912024394872 :: Amol Restaurant
+(41) +919881671917 :: Jyoti Family Restaurant
+(42) +912025532321 :: Hotel Kedar
+(44) +912026126452 :: Sagar Restaurant
+(47) +912025539517 :: Hotel Shreekalp
+(49) +912025283241 :: Hotel Chandrakant
+(50) +912024203018 :: Potoba
+(51) +912024441709 :: Ideal Restaurant
+(55) +912024321760 :: Purva Restaurant
+(56) +919370699180 :: Jai Maharashtra Pani Puri
+(57) +912132275315 :: Hotel Anishwar Bhuvan
+(58) +919326033195 :: Nutan Fast Food
+(59) +912025660406 :: Aarti Restaurant
+(60) +912027469081 :: Hotel Hari Om
+(61) +912024267688 :: Hotel Mahesh Pure Veg
+(62) +912025664635 :: Shiv Shakti Pure Veg
+(63) +912025532702 :: Soham Food Zone
+(64) +912027185717 :: Shridutta Bhavan Hotel
+(65) +912025532029 :: Atithi Restaurant
+(67) +912114226874 :: Shri Shivaji Chitra Mandir Canteen
+(68) +912025451704 :: Hotel Varshasagar
+(69) +912026054366 :: Nandu's Paranthas
+(70) +912026928485 :: Shri Datta Restaurant
+(71) +912026131120 :: Siddarth Veg Restaurant
+(72) +919371730445 :: Gipssy Hotel
+(73) +912060300056 :: Maharashtra Restaurant
+(74) +912027656882 :: Geeta Pav Bhaji
+(76) +912024486494 :: Karachi Lunch Home
+(77) +912024475567 :: Satvik Thali Restaurant
+(78) +912132242793 :: Mangalmurti Hotel
+(79) +912024455324 :: Hotel Ronak
+(80) +912025533581 :: Supreme Restaurant
+(82) +912114222464 :: Smita Hotel
+(83) +912026929058 :: Shiv Krupa Vadapav Centre
+(84) +912024456275 :: Akshay Restaurant
+(85) +912024470630 :: Nityanand Bhavan Restaurant
+(86) +912025819385 :: Cafe Punjab Hotel
+(87) +912133282132 :: Alankar Restaurant
+(88) +912132245945 :: Nataraj Bhojanalay
+(89) +912024475454 :: Chetna Restaurant
+(90) +912025458236 :: Namrata Restaurant
+(91) +919371711112 :: Kalyan Bhel
+(92) +912113224202 :: Khandish Hotel
+(94) +912026134719 :: Udipi Mangal Vihar Restaurant
+(95) +912024373033 :: Hotel Aapulki
+(97) +919049259553 :: Kavyanjali Pure Veg
+(98) +919371030641 :: Hotel Sai Pure Veg Restaurant
+(99) +912060300100 :: Tulsi Pure Veg Restaurant
+(100) +912135246235 :: Savtamali Restaurant
+(101) +912025380478 :: Ashirwad Restaurant
+(102) +912065291189 :: Hotel Legeth
+(104) +912026125886 :: Madhura Restaurant
+(105) +912113222101 :: Amit Restaurant
+(106) +912113224493 :: Ganesh Dabeli
+(107) +919881938310 :: Hotel Rajmahal
+(108) +912133252441 :: Hotel Sonali
+(109) +912024453465 :: Manilal Swarupchand
+(110) +912133252322 :: Amar Deep Hotel
+(111) +912060780902 :: Hotel Sai
+(112) +912026120937 :: Interval Bhel House
+(113) +912132263707 :: Shri Krishna Hotel
+(114) +919371077691 :: Hotel Kanchan
+(115) +912026438789 :: Samrat Veg Restaurant
+(116) +912024268948 :: Hotel Akshaya
+(117) +912024228303 :: Puneri Zaika
+(118) +912132275237 :: Hotel Hrushikesh
+(119) +912132262454 :: Priyanka Hotel
+(120) +912132245271 :: Shiv Shambho Snacks
+(121) +912024329789 :: Joshi Wadewale
+(122) +912060201416 :: Hotel Samrat
+(123) +912024457601 :: Hotel Shivkranti
+(124) +912025471692 :: Ashish Restaurant
+(125) +912132275230 :: Aneshwar Bhavan
+(126) +912025451834 :: Hotel Gagangiri
+(127) +912114228512 :: Mahalaxmi Hotel
+(129) +912114231769 :: Dilip Hotel
+(130) +919423921066 :: Prasad Hotel
+(131) +912024531047 :: Hotel Sairaj Pure Veg
+(132) +912117262912 :: Rambhau Bhel Bhaji Centre
+(133) +919422500446 :: Shree Kamal Restaurant
+(135) +912114225757 :: Thanda Mamala Restaurant
+(136) +912025889267 :: Peshwa Restaurant
+(137) +9120279340 :: Whispering Wood Restaurant
+(140) +912113224167 :: Sonali Hotel
+(142) +912132284499 :: Hemant Dhaba
+(143) +912132276477 :: Hotel Tirupati Balaji
+(144) +912024353001 :: Nimantran Restaurant
+(145) +919822024060 :: Shri Krishna Palace
+(146) +912026505090 :: Aman Restaurant
+(147) +912024436431 :: Modern Restaurant
+(149) +912132231108 :: ST Canteen
+(150) +912132276243 :: Datta Vishranti Restaurant
+(151) +912113284763 :: Avinash Restaurant
+(152) +912132276692 :: Hotel Savatamali
+(153) +912132276246 :: Belhe Restaurant
+(154) +919776263997 :: Kulkarni Fast Food
+(155) +912132276308 :: Rajkamal Restaurant
+(156) +912026912134 :: Maharashtra Bhel
+(157) +919422551009 :: Hotel Vaishali
+(158) +912025531252 :: Amrapali Restaurant
+(160) +912025656321 :: Aroma Restaurant
+(162) +912025674042 :: Panchavati Gaurav
+(164) +912024217786 :: Woodland Veg Restaurant
+(165) +912025464155 :: Hotel Samudra
+(167) +912024456019 :: Agatya Restaurant
+(168) +912065702390 :: Swanand Veg Restaurant
+(169) +912032500077 :: Meghdoot
+(170) +912024358292 :: Brahma Garden
+(171) +919422034501 :: Borawakes Biryani House
+(172) +912027456561 :: Garonda Restaurant
+(173) +912026800004 :: Damroo Pure Veg Family Restaurant
+(174) +912025433388 :: Sarthi Restaurant
+(180) +912026431195 :: Hotel Kanak
+(181) +919970557964 :: Annapoorna Restaurant
+(183) +919822045549 :: Hotel Shreenath
+(184) +919422536007 :: Kokan Fish Family Restaurant
+(185) +919890439382 :: Woodies
+(186) +919960351671 :: Kashish Restaurant & Biryani Centre
+(187) +919657257150 :: Zaika Pure Veg
+(188) +919822191929 :: Hotel Shraddha
+(189) +912026890245 :: Shamli Pure Veg
+(190) +919604420607 :: Moksha
+(191) +919765428750 :: Bighdey Nawab
+(192) +919822693639 :: The Bong Connection
+(193) +912025533423 :: Gandharv Restaurant
+(194) +912065101515 :: Baat Cheet Veg & Non-Veg Restaurant
+(196) +917387479991 :: Take Away Junction
+(197) +912060126044 :: Mast Kalandar
+(198) +919145860082 :: Friendz Dining
+(199) +919890286611 :: Dragon Indian And Chinese Fast Food Restaurant
+(200) +912065293970 :: Malwani Naka
+(201) +912065226284 :: Vithal Kamats
+(202) +919552278866 :: Tandoori Point
+(204) +919822716703 :: Sujata Mastani
+(205) +912026123703 :: Chutneys Veg Restaurant
+(206) +919822518032 :: Roll House
+(207) +912065293927 :: Rolls Mania
+(209) +912026333004 :: Kailash Parbat
+(211) +912027453626 :: Pratik Biryani House
+(212) +919552510426 :: Grubshup
+(214) +912027036606 :: Hotel Sarvodaya
+(215) +912064014949 :: Buddy Chef
+(216) +912026688111 :: Firangi Tadka
+(217) +919225555566 :: Kadhai
+(219) +917507731201 :: Bombay Biryani
+(220) +912069339988 :: Eighteen Takeaways
+(221) +918390923999 :: Falahaar
+(222) +919011321200 :: Rose Wood
+(224) +918551868901 :: Zanakaa
+(225) +912032399966 :: Tarun Punjab
+(226) +919762453476 :: Mummy Its Yummy
+(227) +919823525995 :: Yummmy Kathi Rolls
+(228) +912025433666 :: That Baat
+(229) +912060505061 :: A Spicy Treat
+(234) +919604853893 :: The Momo's
+(238) +919923027372 :: BeeJaan's Restaurant
+(239) +919595133933 :: Kebab Studio
+(240) +919029149694 :: Miniwok Oriental Kitchen
+(242) +919823151616 :: Crazee Chillies
+(243) +919049294250 :: Goli Vada Pav
+(244) +912066095090 :: Damino's Pizza
+(245) +919881107234 :: Yumme Tumme
+(246) +912027459298 :: Malhaar Restaurant
+(247) +917304253939 :: Faaso's Wraps
+(249) +917276222333 :: Biryanis Of India (Home Delivery Only)
+(251) +919860251345 :: Pizza Hut
+(252) +912024221955 :: Baasuri Pure Veg Restaurant
+(253) +912026121757 :: Mona Food
+(255) +919850529929 :: Free Tibet Chinese Corner
+(256) +912027111527 :: Ashoka Restaurant
+(257) +912025536183 :: Shubham Pure Veg Restaurant
+(258) +912025539378 :: Gomantak Restaurant
+(259) +912025435659 :: Sweekar Restaurant
+(261) +912025454126 :: Prithvi Veg Restaurant
+(262) +912025458634 :: Atithee Restaurant
+(263) +912026852357 :: Dime N Dine
+(267) +912025455430 :: Sarthak Pure Veg Restaurant
+(268) +912065007852 :: Kimaya Veg Restaurant
+(269) +912025438384 :: Abhishek Restaurant
+(270) +912025383685 :: Asha Non Veg Restaurant
+(271) +912032315135 :: Indian Pizza
+(272) +912026130345 :: Gokul Restaurant
+(273) +912025888485 :: Radhika Veg Restaurant
+(275) +912025512251 :: Hotel Atithi
+(277) +912025396558 :: Rugved Veg Mantra
+(278) +912032309949 :: Prerana Restaurant
+(279) +912025532115 :: Hotel Sanman
+(281) +912026833018 :: Sadanand Veg Court
+(282) +919766453303 :: Kuldeep Hotel
+(283) +912065255717 :: Shiv Sagar Pure Veg Restaurant
+(284) +912025886151 :: Hotel Prince
+(285) +912026930645 :: New Naaz Biryani House
+(286) +912027472575 :: Mayur Restaurant
+(287) +912025388993 :: Hotel Priya Pure Veg
+(288) +912026132054 :: Ashok Restaurant
+(289) +912025286190 :: Sitara Restaurant
+(290) +919326076558 :: Kebabz The Restaurant
+(291) +912060301064 :: Hotel Nakshatra
+(292) +912026449941 :: Madinah Hotel
+(293) +912024467944 :: Atharva Pure Veg Restaurant
+(294) +912060701171 :: Hotel Suraj Pure Veg
+(295) +912024455880 :: Hotel Chaitrali
+(296) +912026691007 :: Sun Shine Restaurant
+(297) +912025690068 :: MM Restaurant
+(298) +912032316853 :: Farsheeds Restaurant
+(299) +912024306321 :: Sai Restaurant
+(300) +912024251822 :: Sumadhu Pure Veg Family Restaurant
+(301) +912024306333 :: Tiffinee Restaurant
+(302) +912025538783 :: Hotel Shiv Shakti
+(303) +912026113384 :: Hotel Dulari
+(304) +919373610676 :: Bubblly Mastani Restaurant
+(305) +912069498162 :: Sri Ganesh Hotel
+(306) +912032307443 :: Hotel Siddarth
+(309) +919890545015 :: Amrapali Non Veg Family Garden Restaurant
+(310) +912064193780 :: Shambhavi Kolhapuri Non Veg Hotel
+(312) +912025389997 :: Vedant Veg Restaurant
+(313) +912064002424 :: Parathas King
+(315) +912065103746 :: Temptation Snacks Bar
+(316) +912069430239 :: Hotel Sanjog
+(317) +912041308801 :: Yolkshire
+(318) +912032325500 :: Jazz Pizza
+(319) +912026811221 :: Domino's Pizza
+(320) +912025512660 :: Shivam Garden Restaurant
+(321) +912025455773 :: Purepur Kolhapur Misal Joint
+(322) +912025886177 :: Sarjaa
+(323) +912024481421 :: MPS Garden Restaurant
+(324) +919422301273 :: Witches And Dogs
+(325) +912024436080 :: Preeti Restaurant
+(326) +912025674731 :: Vasant Restaurant
+(327) +912064730064 :: Aditya Restaurant
+(328) +912024252880 :: Sawai Veg
+(329) +912027110767 :: Gangotri Restaurant
+(330) +919730065464 :: Shri Inn Pure Veg
+(331) +912030452600 :: Mumbai Chowpatty
+(333) +912024441998 :: City Plaza Restaurant
+(334) +912027129815 :: Hotel Kalpana
+(336) +919823431432 :: Hotel Rajmudra
+(337) +912041240277 :: Hotel Shivalaya
+(339) +912027291667 :: Malwani Gajali
+(340) +912026994625 :: Krishna Chhaya
+(341) +912032938990 :: Wrap Around Restaurant
+(343) +912027150606 :: Banana Leaf Restaurant
+(345) +919326068951 :: Nisarg Restaurant
+(346) +912024232121 :: Shivaneri Restaurant
+(348) +912024446219 :: Apsara Restaurant
+(349) +912026145955 :: Dorabjee & Sons
+(350) +912026630599 :: Karishma Restaurant
+(352) +912026855829 :: Diamond Die Restaurant
+(353) +912065230784 :: Aloha Restaurant
+(354) +912024432117 :: SPS Biryani Hotel
+(355) +912024229869 :: Navratna
+(356) +912026335469 :: Sagar Hotel
+(357) +919762007080 :: Hotel Maratha
+(360) +919822415607 :: Spice Of Punjab
+(361) +912032670003 :: Indiana Grill
+(362) +912067260291 :: Rajdhani Thali
+(363) +918698366070 :: Cafe Maroo
+(364) +919881116222 :: Panchami Pure Veg
+(368) +919922777722 :: Hotel Kaveri
+(369) +912069206060 :: Roll Attack
+(373) +919225518755 :: Punjabi Rasoi
+(374) +918600027702 :: Masala Box
+(380) +918956710742 :: Greens And Olives
+(383) +912065111005 :: Kareem's Restaurant
+(384) +917387536161 :: Amritsari kulcha
+(386) +912025454541 :: Swad Restaurant
+(388) +918484010311 :: Cosmo
+(389) +912026913555 :: Pyasa Hotel
+(390) +918605675960 :: Yummies
+(391) +919730034028 :: Vie Lounge & Kitchen
+(393) +919810878941 :: Urban Desi Pendu
+(396) +919372353545 :: Giridhar Veg Restaurant
+(397) +912025521566 :: Smokin Joe's
+(399) +912025612345 :: Glass Window
+(400) +912040046115 :: Mc Donald's
+(401) +9102026131572-73 :: Charcoal Pit
+(403) +912025466793 :: Curry On The Roof
+(405) +912041217070 :: Subway
+(407) +912026056218 :: Hite Bar
+(408) +912025520404 :: Smokin Joes Pizza
+(409) +912027299090 :: Smokin' Joes Pizza
+(411) +919029082524 :: Krostini
+(412) +912064006666 :: US Pizza
+(414) +912065226806 :: Faso's Restaurant
+(415) +919823366717 :: Nayana Restaurant
+(417) +912030620655 :: Platters Family Restaurant
+(418) +919702905613 :: Ramps Multi Cuisine Restaurant
+(420) +912065111100 :: Tulsi N Thyme
+(421) +919921791456 :: Samudra Restaurant
+(422) +912030463613 :: Mainland China
+(423) +912064004040 :: Smokin Joes
+(425) +91202393100 :: Ivy Bistro
+(426) +912067228000 :: Yummy Tummy
+(427) +919371919872 :: Yo China Restaurant
+(428) +912032404455 :: Zaheer Khan's Restaurant
+(430) +919823104141 :: Saat Handi
+(434) +912030189872 :: Saarthi Veg
+(435) +919860602463 :: Silk Route Restaurant
+(437) +912025454724 :: Raj Laxmi Garden Restaurant
+(439) +912027297772 :: Saarthi Veg Restaurant
+(441) +919637354659 :: Zaika Restaurant
+(442) +912041213344 :: Flipp'd
+(445) +914041057200 :: Little Italy
+(446) +912064781900 :: Mini Punjabb Restaurant
+(447) +912041056666 :: Atlantis
+(448) +912066890599 :: Polo Campero
+(450) +919271363514 :: Hot Chicks
+(451) +917276240208 :: Olives & Oregano
+(456) +919326463999 :: Open Garden Restaurant
+(457) +918888860952 :: Regalia Restaurant And Lounge
+(459) +919623083729 :: Purnagiri Biryani House
+(462) +918600254094 :: Cinnamon Spice
+(464) +912027206333 :: My Roll Junction
+(465) +919028489770 :: Hill Square Bistro
+(466) +912065240640 :: Picantos Mexican Grill
+(467) +918390725946 :: Curry Leaf (Take Away)
+(471) +917057149241 :: Basil Deck Restaurant
+(476) +918605975850 :: Zikomo Restaurant
+(477) +912025654914 :: Shravan Restaurant
+(478) +912025531244 :: Vaishali Restaurant
+(479) +912025811952 :: Goyal Restaurant
+(480) +912065256058 :: Burger King
+(481) +919552564059 :: Shreyas Siddhi
+(483) +919822555297 :: Nature's Bounty
+(485) +912026121909 :: Madhuban Restaurant
+(486) +912024467688 :: Aatithya Veg Delite
+(488) +912064007480 :: Ruchira Pure Veg Restaurant
+(489) +912024455246 :: Yashraj Restaurant
+(490) +912025511344 :: Chalukya Restaurant
+(492) +912026631999 :: Shree Krishna Restaurant
+(494) +912026135147 :: Olympia Restaurant
+(495) +912027185024 :: Chandraphool Garden
+(496) +912026137477 :: Hotel Supriya
+(497) +912024478746 :: Devaki Restaurant
+(498) +912024488988 :: Hotel Abhishek
+(499) +919422012672 :: The Samrat Restaurant
+(500) +919822691000 :: Sanskruti - The Cultural Garden Restaurant
+(501) +912027423748 :: Sheetal Restaurant
+(502) +912027464040 :: Sheetal Refreshment Hotel
+(503) +912026131357 :: Mahanand Restaurant
+(504) +912025446768 :: New Jai Bhavani Hotel
+(505) +912025535737 :: Hotel Rajada
+(506) +912024479680 :: Sneha Restaurant
+(507) +912024476460 :: Regal Restaurant
+(510) +912026340309 :: Hotel Ravi
+(511) +912113224267 :: Chandra Prasad Hotel
+(512) +912024328435 :: Kaveri
+(513) +912026347702 :: Tryluck Restaurant
+(514) +912026134373 :: Majestic Hotel
+(516) +912026122995 :: Ritz
+(517) +912025678780 :: Pooja Hotel
+(518) +919422347473 :: Krushnai Snack Centre
+(520) +912026055404 :: Jai Bhavani Hotel
+(521) +912024461866 :: Maratha Kolhapur Darbar
+(522) +919579221995 :: Aishwarya Restaurant
+(523) +912132262785 :: Hemant Garden Restaurant
+(524) +919822670998 :: Hotel Maharashtra
+(525) +919960728145 :: Sidharth Cafe
+(526) +912025521424 :: Shivam Veg Restaurant
+(527) +912024462547 :: Ganraj Restaurant
+(528) +919822270986 :: Pardeshi Restaurant
+(530) +912065705187 :: Saanj Restaurant
+(531) +912026992736 :: Kings Restaurant
+(532) +912027420192 :: Hotel Rahul
+(533) +912026932364 :: Tushar Garden Restaurant
+(534) +912024371242 :: Hotel Urmeel
+(536) +912027282050 :: Thomson Restaurant
+(537) +912024456135 :: Vijayraj Restaurant
+(538) +912024380050 :: Hotel Lakaki
+(539) +912025438716 :: Anar Mess
+(540) +912024393345 :: Hotel Prakash
+(541) +912026340054 :: Gulzar Restaurant
+(542) +912024337010 :: Hotel Girija
+(543) +912025871333 :: Sai Leela Restaurant
+(544) +912032524837 :: Corner Restaurant
+(545) +912026120199 :: Hotel Guruprasad
+(546) +912027414931 :: Hotel Karachi Bhavan
+(547) +912065101339 :: All In All Restaurant
+(548) +912027273892 :: Hotel Athavan
+(549) +912065219897 :: Hotel Satvik
+(550) +919822476437 :: Rahat Restaurant
+(552) +919921239636 :: Ambica Hotel
+(554) +912025819977 :: Anand Bhavan
+(555) +919371022019 :: Hotel Krushnai
+(557) +919421916482 :: Gawkari Hotel
+(559) +912032512563 :: Sagar Lunch Home
+(560) +919960538383 :: Jai Dhole Restaurant
+(561) +919922734730 :: Hotel Sairaj
+(562) +919270339080 :: Hotel Ashirwad
+(563) +919923305353 :: Hotel Sunder
+(564) +912025651644 :: Yash Biryani House & Kabab Corner
+(565) +912026341626 :: Sunil Bhel House
+(566) +912064011234 :: Vaibhavi Food Court
+(569) +919960493730 :: Jai Malhar Biryani House
+(570) +912025450806 :: Vijaya Dining Hall
+(571) +912025534157 :: Panchale Restaurant
+(572) +912026634443 :: Rush Hours
+(573) +919922434602 :: Kuk-Du-Ku
+(575) +912032415858 :: Purepur Kolhapur
+(576) +912025532088 :: Hotel Pathik
+(577) +912027421555 :: Ratna Hotel
+(578) +912024361811 :: Ravi Kiran Restaurant
+(579) +912027422769 :: Anand Restaurant
+(581) +912032311466 :: Nihal Fast Food
+(582) +919762502226 :: Lazy Pipes Restaurant
+(584) +912024457799 :: R Bhagat Tarachand Restaurant
+(585) +912026340829 :: Nayab Hotel
+(586) +912024433786 :: Swami's Pure Veg
+(587) +912026807037 :: Clover Restaurant
+(588) +919890310111 :: NCC Canteen
+(589) +912032418877 :: Abacha Dhaba
+(590) +912027652222 :: Girija Restaurant
+(592) +912025656517 :: Aryan Veg Restaurant
+(593) +912024282090 :: Hotel Jaipur Garden
+(594) +912026615510 :: Balaji Hotel
+(596) +912024440119 :: Suras Dining Hall
+(597) +919823710106 :: Jayshrees Garden Veg Restaurant
+(599) +912024210763 :: Sonali Restaurant
+(600) +912026353370 :: Sangam Hotel
+(604) +912032513736 :: Radhakrishna Pure Veg Restaurant
+(605) +912024492812 :: Sapna Hotel
+(606) +912025452236 :: Solkadi Restaurant
+(607) +912022923211 :: Rudra Garden Restaurant
+(608) +918007008989 :: Zakaas The Food Joint
+(609) +912025533870 :: Bhairavnath Lunch Home
+(610) +919890035155 :: Oven Fresh Foods
+(612) +912060300189 :: Navmi Pure Veg Restaurant
+(615) +912027371977 :: Sai Palace Family Restaurant
+(616) +912024455412 :: Durga Restaurant
+(617) +918551006481 :: Vishal Restaurant
+(619) +912025899900 :: Shiv Sagar Hotel
+(621) +912027480280 :: Abhinandan Pure Veg Restaurant
+(622) +912024353096 :: Sahiba Fast Food
+(623) +918055203073 :: Punjabi Junction
+(624) +912027280489 :: Dhanashree Restaurant
+(625) +919272771765 :: Chaitanya Garden
+(627) +912026345421 :: Kohinoor Restaurant
+(628) +912026125791 :: Vandana Pure Veg Restaurant
+(629) +912025460615 :: Pallavi Restaurant
+(630) +912026993486 :: Aswad Khanawal
+(631) +912026122691 :: Central Restaurant
+(633) +919371092085 :: Armaan's
+(634) +912132275346 :: Hotel Runwara
+(636) +917721982121 :: Classe
+(642) +912024464123 :: Chandan Restaurant
+(644) +912065290805 :: Kera - The Taste Of South Indian Food
+(647) +912027278820 :: Arch Angel
+(649) +912025880339 :: Polka Dots
+(651) +912024272721 :: Purple Cherry Restaurant
+(653) +912026151369 :: lL Fungo Magico Italian & Mexican Restaurant
+(654) +912025812898 :: Chopstick Chinese Centre
+(655) +919373334309 :: Lovely Restaurant
+(658) +912060600392 :: Food Shack Restaurant
+(659) +919823443289 :: Makkhan Maar Ke
+(661) +912025880771 :: Hyderabadi Spice
+(662) +918237329683 :: I'm Lion
+(664) +912064164204 :: Apna Punjab
+(666) +912027437786 :: Suphia Restaurant
+(667) +912025384963 :: Ruky's
+(668) +912027415270 :: Shri Ganesh Restaurant
+(669) +912032344966 :: Hyderabad House
+(670) +919850365487 :: D Palace Restaurant
+(672) +912026053374 :: Karim Restaurant
+(673) +919766313213 :: Golden Punjab Restaurant
+(675) +919923493904 :: Rush Hrs
+(676) +919890693339 :: The Loft
+(677) +917875821227 :: Cafe Mocambo Grille
+(678) +912024445777 :: Rassaa Family Restaurant
+(679) +919326036411 :: La Italian Slice
+(681) +919922558891 :: Katraj Junction
+(685) +912040024857 :: Gurdjieff Restaurant
+(688) +919011141661 :: SKS Katthi Kabab Rolls
+(689) +918308018822 :: Maa Roties And Curries
+(690) +912064107731 :: Nisarga Restaurant And Bar
+(691) +919595749817 :: Mount Zion
+(693) +912060603114 :: Tutto Bene Delicatessen
+(694) +917276091020 :: Food United
+(697) +919158352929 :: Bay Leaf Bistro
+(698) +919657003169 :: Ken's Kitchen
+(699) +912060505500 :: Bombay South Cafe
+(700) +918411860030 :: Pai BBQ Lounge
+(701) +919890664400 :: Punjabi Dhaba
+(703) +912067223437 :: Bong Ltaliano
+(704) +912064016001 :: Shree Sagar
+(708) +912026133535 :: La Pizzeria
+(709) +918805548868 :: Flambe Food Court
+(710) +912040104000 :: Time After Time
+(711) +918286086955 :: Grillicious
+(712) +919119442800 :: Spice Kolhapur
+(713) +9102027472012-13 :: Eternia
+(714) +919860522234 :: Mini Punjab Garden Restaurant
+(716) +912026059001 :: Pizza Express
+(717) +918975231010 :: Hotel Pyramid
+(718) +912025532940 :: Magnolia
+(719) +912026050505 :: Favola Restaurant
+(720) +912026134632 :: Place Touch Sizzler
+(723) +919011177133 :: Hotel Sameekshaa
+(724) +912066044100 :: Dosa Dinner
+(726) +912026205000 :: Chequered Flag
+(727) +912040009999 :: Seasons Restaurant
+(728) +912041004100 :: Asia Bleu
+(729) +912026111389 :: Yoko Sizzlers
+(730) +912025399999 :: Signature
+(732) +912066025555 :: Whispering Bamboos
+(733) +912040159555 :: Kokum Restaurant
+(734) +912025534567 :: Puran Da Dhaba
+(735) +912026167777 :: Kebab Hut
+(736) +912025531511 :: Sharavaree
+(737) +912041002200 :: Tamarind Restaurant
+(739) +912040262626 :: Cascade
+(740) +912039880333 :: Pizzeria
+(741) +912025286276 :: Bohemian
+(742) +912114282505 :: Baywatch Branto
+(743) +912114279654 :: Fiesta Restaurant
+(744) +912114273852 :: Fariyas Holiday Resort
+(745) +912026168555 :: Sicilia
+(746) +912066832345 :: Spice Kitchen
+(747) +912066013897 :: Yana Sizzlers And Wok
+(750) +912066289999 :: Soy
+(753) +912040218000 :: Oasis
+(754) +912067210021 :: Prego
+(755) +912039848484 :: Zodiac Restaurant
+(756) +912027060606 :: The Great Kabab Factory
+(757) +912026124501 :: Yogi Tree
+(759) +912030950400 :: Chilis
+(760) +918888054442 :: Pesto Pesto
+(761) +919422037704 :: Garwa Hills- Nazaara (Hill View)
+(762) +918007770805 :: Cream Centre
+(763) +912067313333 :: Level 12
+(764) +912066862200 :: Cafe Bay Leaf
+(765) +91202415151 :: Atithya Multi Cuisine
+(767) +912025666565 :: Aphrodite
+(768) +912065600191 :: Sigree Restaurant
+(772) +912114712468 :: Terrazzo
+(773) +912030660033 :: Flavours Restaurant
+(774) +912022951300 :: Daulat Garden Restaurant
+(775) +912039406699 :: Panash
+(777) +912067248181 :: Momo Cafe
+(778) +912026360629 :: Kwality Restaurant
+(781) +919552194400 :: Le Kebabiere
+(782) +912026052180 :: Terttulia
+(783) +912067210000 :: Seasonal Tastes
+(784) +912026145613 :: Chinese Room
+(785) +912025455001 :: Kobe Sizzlers
+(787) +912025449099 :: Heaven Garden
+(788) +912026613360 :: Bounty Sizzlers Restaurant
+(789) +919623898899 :: Fountain Inn Restaurant
+(791) +912026123610 :: Zamu's Place
+(792) +912025449448 :: Subha Family Restaurant
+(794) +919422080800 :: Rajwada Restaurant
+(795) +912025662052 :: Hotel Saileela
+(796) +912025676893 :: Cafe Goodluck
+(797) +912025662161 :: Eden Court Restaurant
+(798) +912065104871 :: Swastik Multicusine Restaurant
+(799) +912026362667 :: King's Restaurant
+(800) +912027400192 :: Chahul Garden Restaurant
+(803) +912040077373 :: Papa John's
+(804) +919422011883 :: Hotel Amit
+(806) +912032908687 :: Baghban Chef
+(807) +912026633293 :: Daiwong Restaurant
+(808) +912024368214 :: Manali Restaurant
+(810) +912025536542 :: Akash Restaurant
+(811) +912022952100 :: Nivant Garden Restaurant
+(813) +912040046171 :: Marrakesh
+(814) +912065005566 :: Mozzarella
+(816) +912025231583 :: Soundarya Family Garden Restaurant
+(818) +912040047803 :: Red Dragon
+(819) +912032341333 :: Kabab King
+(820) +912026952222 :: Smokies
+(821) +919272402006 :: Burger Barn Cafe
+(822) +912032413536 :: Haka
+(823) +912026811103 :: Domino's
+(824) +919960187995 :: The Bristo Grill
+(825) +918149209650 :: Singh Chin
+(828) +912026150081 :: Prems
+(830) +912025885021 :: Brix Pizza
+(831) +912026880020 :: Giggles Restaurant
+(834) +918308725779 :: Crepeteria
+(835) +919209094605 :: Maratha Mughlai
+(836) +919604053330 :: Oudhiyana
+(839) +912025455039 :: Shiv Prasad Family Restaurant
+(840) +912025452650 :: Four Season Restaurant & Bar
+(841) +912025530436 :: Rainbow Family Restaurant
+(842) +912026699415 :: Appetite Restaurant
+(843) +912026126582 :: Ahlings Restaurant
+(844) +919422003877 :: Hotel President
+(845) +912024346797 :: Shetkari Non Veg
+(848) +912024476847 :: Hotel Peacock
+(849) +912025667633 :: Monsoon Momos
+(852) +919594071458 :: Vedant Pure Veg
+(855) +912060300404 :: Smokin' Joe's
+(856) +912026680474 :: The Flour Works
+(857) +912027490099 :: Hotel Bird Valley
+(859) +919960228533 :: Kabab-E-Que
+(863) +912064102266 :: God's Own Curry
+(864) +917304013040 :: Nizam's Restaurant
+(866) +918149604585 :: R2E
+(867) +919637122558 :: Bird Valley Garden Restaurant
+(868) +919881815050 :: Aabacha Dhaba
+(869) +919766584272 :: The Slackers Cafe
+(870) +912027650022 :: Vasu's Biryani House
+(872) +918149674059 :: Filmy Tadka
+(873) +919372406988 :: Lasa's Kitchen
+(874) +912033994444 :: KFC
+(876) +917798789690 :: Foodiez Den
+(878) +919595969813 :: Seven Shawarma House
+(880) +919579727273 :: Mughal's
+(882) +919561361984 :: Spice And Ice
+(885) +912065211818 :: Punjab Da Sher
+(886) +919762331659 :: New Rachana
+(887) +919604504596 :: Kok Pa Chinese
+(888) +919325749220 :: Hidden Place
+(889) +917620096163 :: Tandoor Point
+(892) +917709033596 :: The Burger House
+(894) +918793811335 :: Sigree Global Grill
+(896) +919763268580 :: The Shanghai Court
+(902) +912065266363 :: Lalaz Mini Punjab XPRS
+(903) +912042225222 :: Cheelizza
+(904) +912065282001 :: Yumwich
+(905) +919766587585 :: V-Deck
+(907) +917709943395 :: Tawa N Tandoor
+(908) +918484000042 :: Meal 40
+(909) +919823216888 :: Marrakesh Restaurant (Head Office)
+(910) +919762100991 :: Sky Garage
+(911) +912065311000 :: Mozzar's Pizzaworks
+(912) +912024462276 :: Hotel Satkar
+(914) +919822813490 :: The Flute
+(916) +919545655355 :: Angaar
+(917) +912065230123 :: Rishi Non Veg
+(918) +917588327780 :: Tandoori Knights
+(919) +918605679992 :: Oryzza
+(920) +919920321512 :: Adda The Hideout
+(921) +918806009732 :: Hashtag - The Multicuisine Bistro
+(923) +912026131818 :: Zen
+(924) +919552085377 :: Abhinaya Reddy's
+(925) +912065289444 :: Lazeez By Hyderabadi Delicacies
+(926) +919325008060 :: Aryan's
+(927) +912065003749 :: Four Seasons Restaurant
+(928) +912041418888 :: Baan Tao
+(929) +919765615038 :: Tamanna Restaurants And Bar
+(930) +917507772162 :: Talk About Restaurants And Bar
+(933) +919673337776 :: BISO
+(935) +912060017555 :: Atrium
+(936) +912040006200 :: Cilantro
+(937) +918600146983 :: Ammbiir Restaurant
+(939) +912024606060 :: Shorba Family Restaurant
+(940) +919371616422 :: Barbeque Nation
+(941) +918408859624 :: Cafe Snero
+(942) +919911707101 :: Citrus Cafe
+(943) +918554891225 :: Red Peppers Restaurant
+(944) +912026059999 :: The Terrace Bistro
+(945) +919673266729 :: Ghanthi Restaurant
+(948) +912066283535 :: The Eye Club
+(949) +912066846565 :: It's Mirchi
+(950) +912041428888 :: Sen5es
+(951) +912066833333 :: Pasha Restaurant
+(952) +912064015229 :: Aroma Cafe
+(953) +912041044104 :: Atrium Cafe
+(954) +912040131234 :: Kasba
+(955) +912026608777 :: UV Deck
+(956) +912114272914 :: Lonavala Restaurant And Bar Hotel Lonavala
+(957) +91202647474 :: Bistro
+(958) +919763716185 :: Offbeat Foods
+(960) +912026122748 :: Hotel Neelam
+(961) +919892141014 :: Great Punjab Restaurant
+(963) +912040731111 :: Royal Park Restaurant
+(964) +912026834455 :: Manna Restaurant
+(2) +912026361325 :: Sarangi Restaurant
+(3) +912025536200 :: Zen Restaurant
+(4) +919922394441 :: Mineority By Saby
+(5) +912030643300 :: Orchid
+(7) +919545556944 :: Bistro Italian Deli
+(8) +912026132331 :: Karia Hotel
+(9) +912066032230 :: Mahesh Lunch Home
+(11) +912025432611 :: Rajmudra Family Restaurant
+(12) +912032911907 :: Baanthai Restaurant
+(13) +912026130509 :: Diamond Restaurant
+(15) +912025425533 :: Samarth Veg Restaurant
+(16) +912026131626 :: George Restaurant
+(18) +912025421701 :: The Taste Restaurant
+(19) +912024475784 :: Abu Foods
+(20) +919822284757 :: Poonam Restaurant
+(21) +912025535606 :: Rajhans Hotel
+(22) +912025885089 :: Drizzle The Restaurant
+(23) +912026053981 :: Coconut Grove
+(24) +912026362749 :: Cafe Diamond Queen
+(25) +912025473596 :: Chandralok Garden Restaurant
+(27) +912025411438 :: Harvest Club Restaurant
+(28) +919764159761 :: Southern Spice
+(29) +912025661529 :: Hotel Rachna
+(31) +912024479629 :: Gopi Non Veg
+(32) +919987131352 :: Village The Soul Of India
+(34) +912026347259 :: Priya Restaurant
+(35) +912026991863 :: Nandini Garden
+(36) +919850412615 :: Salokha Restaurant
+(37) +912025535940 :: Span Restaurant
+(38) +912024459044 :: Gaurav Restaurant
+(39) +912025531770 :: Khyber Restaurant
+(40) +912024452241 :: Nidhi Restaurant
+(41) +919422328299 :: Pooja Restaurant
+(42) +912032931635 :: Kimling Chinese Cuisine
+(43) +912024336196 :: Golden Wheel Restaurant
+(46) +912025817839 :: Hotel Sotkur
+(48) +912026873594 :: Hotel Chaitanya
+(49) +912024475981 :: Hotel Vandana Garden
+(50) +912025861415 :: Yash Family Restaurant
+(51) +912025532085 :: China Gate
+(52) +912117262731 :: Hotel Sahyadri
+(53) +912027120980 :: Vishwa Vilas Restaurant
+(3) +912024471591 :: Swad Bhel
+(4) +912025820786 :: Crown Restaurant
+(5) +912025896967 :: Divadkar Food
+(6) +912064001763 :: Suruchi Fast Food
+(7) +912132244468 :: Vikas Vihar Restaurant
+(8) +919325380610 :: Manohar Fast Food Parlour
+(9) +912025455101 :: Aangan Fast Restaurant
+(10) +912114231029 :: Prathmesh Fast Food Centre
+(11) +912025513141 :: Someshwar Bhavan
+(12) +912025531395 :: Savera Veg Restaurant
+(13) +912025449579 :: Supreme Corner
+(14) +912026121482 :: Laxmi Villas
+(15) +912024480385 :: Ashvamegh Restaurant
+(18) +912025452077 :: Guru Datta Hotel
+(21) +912024354900 :: Anandi Restaurant
+(22) +912025536978 :: Satkar Restaurant
+(23) +912025431922 :: Suvarnarekha Restaurant
+(25) +912024333856 :: New Refreshment House
+(27) +912024329922 :: Hotel Shivganga
+(28) +912027144202 :: Ganesh Restaurant
+(31) +912024436361 :: Chandar Vilas Upahar Gruha
+(32) +912025673671 :: Hotel Darshan
+(34) +912069467001 :: Hotel Roopa
+(35) +919325577282 :: Ayyers Restaurant
+(38) +912025425800 :: Kamath Family Restaurant
+(39) +919637740068 :: Chaitanya Restaurant
+(40) +912024394872 :: Amol Restaurant
+(41) +919881671917 :: Jyoti Family Restaurant
+(42) +912025532321 :: Hotel Kedar
+(44) +912026126452 :: Sagar Restaurant
+(47) +912025539517 :: Hotel Shreekalp
+(48) +919890007457 :: Amore Italia Restaurant
+(49) +912025283241 :: Hotel Chandrakant
+(50) +912024203018 :: Potoba
+(51) +912024441709 :: Ideal Restaurant
+(55) +912024321760 :: Purva Restaurant
+(56) +919370699180 :: Jai Maharashtra Pani Puri
+(57) +912132275315 :: Hotel Anishwar Bhuvan
+(58) +919326033195 :: Nutan Fast Food
+(59) +912025660406 :: Aarti Restaurant
+(60) +912027469081 :: Hotel Hari Om
+(61) +912024267688 :: Hotel Mahesh Pure Veg
+(62) +912025664635 :: Shiv Shakti Pure Veg
+(63) +912025532702 :: Soham Food Zone
+(64) +912027185717 :: Shridutta Bhavan Hotel
+(65) +912025532029 :: Atithi Restaurant
+(67) +912114226874 :: Shri Shivaji Chitra Mandir Canteen
+(68) +912025451704 :: Hotel Varshasagar
+(69) +912026054366 :: Nandu's Paranthas
+(70) +912026928485 :: Shri Datta Restaurant
+(71) +912026131120 :: Siddarth Veg Restaurant
+(72) +919371730445 :: Gipssy Hotel
+(73) +912060300056 :: Maharashtra Restaurant
+(74) +912027656882 :: Geeta Pav Bhaji
+(76) +912024486494 :: Karachi Lunch Home
+(77) +912024475567 :: Satvik Thali Restaurant
+(78) +912132242793 :: Mangalmurti Hotel
+(79) +912024455324 :: Hotel Ronak
+(80) +912025533581 :: Supreme Restaurant
+(82) +912114222464 :: Smita Hotel
+(83) +912026929058 :: Shiv Krupa Vadapav Centre
+(84) +912024456275 :: Akshay Restaurant
+(85) +912024470630 :: Nityanand Bhavan Restaurant
+(86) +912025819385 :: Cafe Punjab Hotel
+(87) +912133282132 :: Alankar Restaurant
+(88) +912132245945 :: Nataraj Bhojanalay
+(89) +912024475454 :: Chetna Restaurant
+(90) +912025458236 :: Namrata Restaurant
+(91) +919371711112 :: Kalyan Bhel
+(92) +912113224202 :: Khandish Hotel
+(94) +912026134719 :: Udipi Mangal Vihar Restaurant
+(95) +912024373033 :: Hotel Aapulki
+(97) +919049259553 :: Kavyanjali Pure Veg
+(98) +919371030641 :: Hotel Sai Pure Veg Restaurant
+(99) +912060300100 :: Tulsi Pure Veg Restaurant
+(100) +912135246235 :: Savtamali Restaurant
+(101) +912025380478 :: Ashirwad Restaurant
+(102) +912065291189 :: Hotel Legeth
+(104) +912026125886 :: Madhura Restaurant
+(105) +912113222101 :: Amit Restaurant
+(106) +912113224493 :: Ganesh Dabeli
+(107) +919881938310 :: Hotel Rajmahal
+(108) +912133252441 :: Hotel Sonali
+(109) +912024453465 :: Manilal Swarupchand
+(110) +912133252322 :: Amar Deep Hotel
+(111) +912060780902 :: Hotel Sai
+(112) +912026120937 :: Interval Bhel House
+(113) +912132263707 :: Shri Krishna Hotel
+(114) +919371077691 :: Hotel Kanchan
+(115) +912026438789 :: Samrat Veg Restaurant
+(116) +912024268948 :: Hotel Akshaya
+(117) +912024228303 :: Puneri Zaika
+(118) +912132275237 :: Hotel Hrushikesh
+(119) +912132262454 :: Priyanka Hotel
+(120) +912132245271 :: Shiv Shambho Snacks
+(121) +912024329789 :: Joshi Wadewale
+(122) +912060201416 :: Hotel Samrat
+(123) +912024457601 :: Hotel Shivkranti
+(124) +912025471692 :: Ashish Restaurant
+(125) +912132275230 :: Aneshwar Bhavan
+(126) +912025451834 :: Hotel Gagangiri
+(127) +912114228512 :: Mahalaxmi Hotel
+(129) +912114231769 :: Dilip Hotel
+(130) +919423921066 :: Prasad Hotel
+(131) +912024531047 :: Hotel Sairaj Pure Veg
+(132) +912117262912 :: Rambhau Bhel Bhaji Centre
+(133) +919422500446 :: Shree Kamal Restaurant
+(135) +912114225757 :: Thanda Mamala Restaurant
+(136) +912025889267 :: Peshwa Restaurant
+(137) +9120279340 :: Whispering Wood Restaurant
+(140) +912113224167 :: Sonali Hotel
+(142) +912132284499 :: Hemant Dhaba
+(143) +912132276477 :: Hotel Tirupati Balaji
+(144) +912024353001 :: Nimantran Restaurant
+(145) +919822024060 :: Shri Krishna Palace
+(146) +912026505090 :: Aman Restaurant
+(147) +912024436431 :: Modern Restaurant
+(149) +912132231108 :: ST Canteen
+(150) +912132276243 :: Datta Vishranti Restaurant
+(151) +912113284763 :: Avinash Restaurant
+(152) +912132276692 :: Hotel Savatamali
+(153) +912132276246 :: Belhe Restaurant
+(154) +919776263997 :: Kulkarni Fast Food
+(155) +912132276308 :: Rajkamal Restaurant
+(156) +912026912134 :: Maharashtra Bhel
+(157) +919422551009 :: Hotel Vaishali
+(158) +912025531252 :: Amrapali Restaurant
+(160) +912025656321 :: Aroma Restaurant
+(162) +912025674042 :: Panchavati Gaurav
+(164) +912024217786 :: Woodland Veg Restaurant
+(165) +912025464155 :: Hotel Samudra
+(167) +912024456019 :: Agatya Restaurant
+(168) +912065702390 :: Swanand Veg Restaurant
+(169) +912032500077 :: Meghdoot
+(170) +912024358292 :: Brahma Garden
+(171) +919422034501 :: Borawakes Biryani House
+(172) +912027456561 :: Garonda Restaurant
+(173) +912026800004 :: Damroo Pure Veg Family Restaurant
+(174) +912025433388 :: Sarthi Restaurant
+(180) +912026431195 :: Hotel Kanak
+(181) +919970557964 :: Annapoorna Restaurant
+(183) +919822045549 :: Hotel Shreenath
+(184) +919422536007 :: Kokan Fish Family Restaurant
+(185) +919890439382 :: Woodies
+(186) +919960351671 :: Kashish Restaurant & Biryani Centre
+(187) +919657257150 :: Zaika Pure Veg
+(188) +919822191929 :: Hotel Shraddha
+(189) +912026890245 :: Shamli Pure Veg
+(190) +919604420607 :: Moksha
+(191) +919765428750 :: Bighdey Nawab
+(192) +919822693639 :: The Bong Connection
+(193) +912025533423 :: Gandharv Restaurant
+(194) +912065101515 :: Baat Cheet Veg & Non-Veg Restaurant
+(196) +917387479991 :: Take Away Junction
+(197) +912060126044 :: Mast Kalandar
+(198) +919145860082 :: Friendz Dining
+(199) +919890286611 :: Dragon Indian And Chinese Fast Food Restaurant
+(200) +912065293970 :: Malwani Naka
+(201) +912065226284 :: Vithal Kamats
+(202) +919552278866 :: Tandoori Point
+(204) +919822716703 :: Sujata Mastani
+(205) +912026123703 :: Chutneys Veg Restaurant
+(206) +919822518032 :: Roll House
+(207) +912065293927 :: Rolls Mania
+(209) +912026333004 :: Kailash Parbat
+(211) +912027453626 :: Pratik Biryani House
+(212) +919552510426 :: Grubshup
+(214) +912027036606 :: Hotel Sarvodaya
+(215) +912064014949 :: Buddy Chef
+(216) +912026688111 :: Firangi Tadka
+(217) +919225555566 :: Kadhai
+(219) +917507731201 :: Bombay Biryani
+(220) +912069339988 :: Eighteen Takeaways
+(221) +918390923999 :: Falahaar
+(222) +919011321200 :: Rose Wood
+(224) +918551868901 :: Zanakaa
+(225) +912032399966 :: Tarun Punjab
+(226) +919762453476 :: Mummy Its Yummy
+(227) +919823525995 :: Yummmy Kathi Rolls
+(228) +912025433666 :: That Baat
+(229) +912060505061 :: A Spicy Treat
+(234) +919604853893 :: The Momo's
+(238) +919923027372 :: BeeJaan's Restaurant
+(239) +919595133933 :: Kebab Studio
+(240) +919029149694 :: Miniwok Oriental Kitchen
+(242) +919823151616 :: Crazee Chillies
+(243) +919049294250 :: Goli Vada Pav
+(244) +912066095090 :: Damino's Pizza
+(245) +919881107234 :: Yumme Tumme
+(246) +912027459298 :: Malhaar Restaurant
+(247) +917304253939 :: Faaso's Wraps
+(249) +917276222333 :: Biryanis Of India (Home Delivery Only)
+(251) +919860251345 :: Pizza Hut
+(252) +912024221955 :: Baasuri Pure Veg Restaurant
+(253) +912026121757 :: Mona Food
+(255) +919850529929 :: Free Tibet Chinese Corner
+(256) +912027111527 :: Ashoka Restaurant
+(257) +912025536183 :: Shubham Pure Veg Restaurant
+(258) +912025539378 :: Gomantak Restaurant
+(259) +912025435659 :: Sweekar Restaurant
+(261) +912025454126 :: Prithvi Veg Restaurant
+(262) +912025458634 :: Atithee Restaurant
+(263) +912026852357 :: Dime N Dine
+(267) +912025455430 :: Sarthak Pure Veg Restaurant
+(268) +912065007852 :: Kimaya Veg Restaurant
+(269) +912025438384 :: Abhishek Restaurant
+(270) +912025383685 :: Asha Non Veg Restaurant
+(271) +912032315135 :: Indian Pizza
+(272) +912026130345 :: Gokul Restaurant
+(273) +912025888485 :: Radhika Veg Restaurant
+(275) +912025512251 :: Hotel Atithi
+(277) +912025396558 :: Rugved Veg Mantra
+(278) +912032309949 :: Prerana Restaurant
+(279) +912025532115 :: Hotel Sanman
+(281) +912026833018 :: Sadanand Veg Court
+(282) +919766453303 :: Kuldeep Hotel
+(283) +912065255717 :: Shiv Sagar Pure Veg Restaurant
+(284) +912025886151 :: Hotel Prince
+(285) +912026930645 :: New Naaz Biryani House
+(286) +912027472575 :: Mayur Restaurant
+(287) +912025388993 :: Hotel Priya Pure Veg
+(288) +912026132054 :: Ashok Restaurant
+(289) +912025286190 :: Sitara Restaurant
+(290) +919326076558 :: Kebabz The Restaurant
+(291) +912060301064 :: Hotel Nakshatra
+(292) +912026449941 :: Madinah Hotel
+(293) +912024467944 :: Atharva Pure Veg Restaurant
+(294) +912060701171 :: Hotel Suraj Pure Veg
+(295) +912024455880 :: Hotel Chaitrali
+(296) +912026691007 :: Sun Shine Restaurant
+(297) +912025690068 :: MM Restaurant
+(298) +912032316853 :: Farsheeds Restaurant
+(299) +912024306321 :: Sai Restaurant
+(300) +912024251822 :: Sumadhu Pure Veg Family Restaurant
+(301) +912024306333 :: Tiffinee Restaurant
+(302) +912025538783 :: Hotel Shiv Shakti
+(303) +912026113384 :: Hotel Dulari
+(304) +919373610676 :: Bubblly Mastani Restaurant
+(305) +912069498162 :: Sri Ganesh Hotel
+(306) +912032307443 :: Hotel Siddarth
+(309) +919890545015 :: Amrapali Non Veg Family Garden Restaurant
+(310) +912064193780 :: Shambhavi Kolhapuri Non Veg Hotel
+(312) +912025389997 :: Vedant Veg Restaurant
+(313) +912064002424 :: Parathas King
+(315) +912065103746 :: Temptation Snacks Bar
+(316) +912069430239 :: Hotel Sanjog
+(317) +912041308801 :: Yolkshire
+(318) +912032325500 :: Jazz Pizza
+(319) +912026811221 :: Domino's Pizza
+(320) +912025512660 :: Shivam Garden Restaurant
+(321) +912025455773 :: Purepur Kolhapur Misal Joint
+(322) +912025886177 :: Sarjaa
+(323) +912024481421 :: MPS Garden Restaurant
+(324) +919422301273 :: Witches And Dogs
+(325) +912024436080 :: Preeti Restaurant
+(326) +912025674731 :: Vasant Restaurant
+(327) +912064730064 :: Aditya Restaurant
+(328) +912024252880 :: Sawai Veg
+(329) +912027110767 :: Gangotri Restaurant
+(330) +919730065464 :: Shri Inn Pure Veg
+(331) +912030452600 :: Mumbai Chowpatty
+(333) +912024441998 :: City Plaza Restaurant
+(334) +912027129815 :: Hotel Kalpana
+(336) +919823431432 :: Hotel Rajmudra
+(337) +912041240277 :: Hotel Shivalaya
+(339) +912027291667 :: Malwani Gajali
+(340) +912026994625 :: Krishna Chhaya
+(341) +912032938990 :: Wrap Around Restaurant
+(343) +912027150606 :: Banana Leaf Restaurant
+(345) +919326068951 :: Nisarg Restaurant
+(346) +912024232121 :: Shivaneri Restaurant
+(348) +912024446219 :: Apsara Restaurant
+(349) +912026145955 :: Dorabjee & Sons
+(350) +912026630599 :: Karishma Restaurant
+(352) +912026855829 :: Diamond Die Restaurant
+(353) +912065230784 :: Aloha Restaurant
+(354) +912024432117 :: SPS Biryani Hotel
+(355) +912024229869 :: Navratna
+(356) +912026335469 :: Sagar Hotel
+(357) +919762007080 :: Hotel Maratha
+(360) +919822415607 :: Spice Of Punjab
+(361) +912032670003 :: Indiana Grill
+(362) +912067260291 :: Rajdhani Thali
+(363) +918698366070 :: Cafe Maroo
+(364) +919881116222 :: Panchami Pure Veg
+(368) +919922777722 :: Hotel Kaveri
+(369) +912069206060 :: Roll Attack
+(373) +919225518755 :: Punjabi Rasoi
+(374) +918600027702 :: Masala Box
+(4) +918956710742 :: Greens And Olives
+(7) +912065111005 :: Kareem's Restaurant
+(8) +917387536161 :: Amritsari kulcha
+(10) +912025454541 :: Swad Restaurant
+(12) +918484010311 :: Cosmo
+(13) +912026913555 :: Pyasa Hotel
+(14) +918605675960 :: Yummies
+(15) +919730034028 :: Vie Lounge & Kitchen
+(17) +919810878941 :: Urban Desi Pendu
+(20) +919372353545 :: Giridhar Veg Restaurant
+(21) +912025521566 :: Smokin Joe's
+(23) +912025612345 :: Glass Window
+(24) +912040046115 :: Mc Donald's
+(25) +9102026131572-73 :: Charcoal Pit
+(2) +912025466793 :: Curry On The Roof
+(4) +912041217070 :: Subway
+(6) +912026056218 :: Hite Bar
+(7) +912025520404 :: Smokin Joes Pizza
+(8) +912027299090 :: Smokin' Joes Pizza
+(10) +919029082524 :: Krostini
+(11) +912064006666 :: US Pizza
+(13) +912065226806 :: Faso's Restaurant
+(14) +919823366717 :: Nayana Restaurant
+(16) +912030620655 :: Platters Family Restaurant
+(17) +919702905613 :: Ramps Multi Cuisine Restaurant
+(19) +912065111100 :: Tulsi N Thyme
+(20) +919921791456 :: Samudra Restaurant
+(21) +912030463613 :: Mainland China
+(22) +912064004040 :: Smokin Joes
+(24) +91202393100 :: Ivy Bistro
+(25) +912067228000 :: Yummy Tummy
+(26) +919371919872 :: Yo China Restaurant
+(27) +912032404455 :: Zaheer Khan's Restaurant
+(29) +919823104141 :: Saat Handi
+(33) +912030189872 :: Saarthi Veg
+(34) +919860602463 :: Silk Route Restaurant
+(36) +912025454724 :: Raj Laxmi Garden Restaurant
+(38) +912027297772 :: Saarthi Veg Restaurant
+(40) +919637354659 :: Zaika Restaurant
+(41) +912041213344 :: Flipp'd
+(44) +914041057200 :: Little Italy
+(45) +912064781900 :: Mini Punjabb Restaurant
+(46) +912041056666 :: Atlantis
+(47) +912066890599 :: Polo Campero
+(49) +919271363514 :: Hot Chicks
+(50) +917276240208 :: Olives & Oregano
+(55) +919326463999 :: Open Garden Restaurant
+(56) +918888860952 :: Regalia Restaurant And Lounge
+(58) +919623083729 :: Purnagiri Biryani House
+(61) +918600254094 :: Cinnamon Spice
+(63) +912027206333 :: My Roll Junction
+(64) +919028489770 :: Hill Square Bistro
+(65) +912065240640 :: Picantos Mexican Grill
+(66) +918390725946 :: Curry Leaf (Take Away)
+(75) +918605975850 :: Zikomo Restaurant
+(76) +912025654914 :: Shravan Restaurant
+(77) +912025531244 :: Vaishali Restaurant
+(78) +912025811952 :: Goyal Restaurant
+(79) +912065256058 :: Burger King
+(80) +919552564059 :: Shreyas Siddhi
+(82) +919822555297 :: Nature's Bounty
+(84) +912026121909 :: Madhuban Restaurant
+(85) +912024467688 :: Aatithya Veg Delite
+(87) +912064007480 :: Ruchira Pure Veg Restaurant
+(88) +912024455246 :: Yashraj Restaurant
+(89) +912025511344 :: Chalukya Restaurant
+(91) +912026631999 :: Shree Krishna Restaurant
+(93) +912026135147 :: Olympia Restaurant
+(94) +912027185024 :: Chandraphool Garden
+(95) +912026137477 :: Hotel Supriya
+(96) +912024478746 :: Devaki Restaurant
+(97) +912024488988 :: Hotel Abhishek
+(98) +919422012672 :: The Samrat Restaurant
+(99) +919822691000 :: Sanskruti - The Cultural Garden Restaurant
+(100) +912027423748 :: Sheetal Restaurant
+(101) +912027464040 :: Sheetal Refreshment Hotel
+(102) +912026131357 :: Mahanand Restaurant
+(103) +912025446768 :: New Jai Bhavani Hotel
+(104) +912025535737 :: Hotel Rajada
+(105) +912024479680 :: Sneha Restaurant
+(106) +912024476460 :: Regal Restaurant
+(109) +912026340309 :: Hotel Ravi
+(110) +912113224267 :: Chandra Prasad Hotel
+(111) +912024328435 :: Kaveri
+(112) +912026347702 :: Tryluck Restaurant
+(113) +912026134373 :: Majestic Hotel
+(115) +912026122995 :: Ritz
+(116) +912025678780 :: Pooja Hotel
+(117) +919422347473 :: Krushnai Snack Centre
+(119) +912026055404 :: Jai Bhavani Hotel
+(120) +912024461866 :: Maratha Kolhapur Darbar
+(121) +919579221995 :: Aishwarya Restaurant
+(122) +912132262785 :: Hemant Garden Restaurant
+(123) +919822670998 :: Hotel Maharashtra
+(124) +919960728145 :: Sidharth Cafe
+(125) +912025521424 :: Shivam Veg Restaurant
+(126) +912024462547 :: Ganraj Restaurant
+(127) +919822270986 :: Pardeshi Restaurant
+(129) +912065705187 :: Saanj Restaurant
+(130) +912026992736 :: Kings Restaurant
+(131) +912027420192 :: Hotel Rahul
+(132) +912026932364 :: Tushar Garden Restaurant
+(133) +912024371242 :: Hotel Urmeel
+(135) +912027282050 :: Thomson Restaurant
+(136) +912024456135 :: Vijayraj Restaurant
+(137) +912024380050 :: Hotel Lakaki
+(138) +912025438716 :: Anar Mess
+(139) +912024393345 :: Hotel Prakash
+(140) +912026340054 :: Gulzar Restaurant
+(141) +912024337010 :: Hotel Girija
+(142) +912025871333 :: Sai Leela Restaurant
+(143) +912032524837 :: Corner Restaurant
+(144) +912026120199 :: Hotel Guruprasad
+(145) +912027414931 :: Hotel Karachi Bhavan
+(146) +912065101339 :: All In All Restaurant
+(147) +912027273892 :: Hotel Athavan
+(148) +912065219897 :: Hotel Satvik
+(149) +919822476437 :: Rahat Restaurant
+(151) +919921239636 :: Ambica Hotel
+(153) +912025819977 :: Anand Bhavan
+(154) +919371022019 :: Hotel Krushnai
+(156) +919421916482 :: Gawkari Hotel
+(158) +912032512563 :: Sagar Lunch Home
+(159) +919960538383 :: Jai Dhole Restaurant
+(160) +919922734730 :: Hotel Sairaj
+(161) +919270339080 :: Hotel Ashirwad
+(162) +919923305353 :: Hotel Sunder
+(163) +912025651644 :: Yash Biryani House & Kabab Corner
+(164) +912026341626 :: Sunil Bhel House
+(165) +912064011234 :: Vaibhavi Food Court
+(168) +919960493730 :: Jai Malhar Biryani House
+(169) +912025450806 :: Vijaya Dining Hall
+(170) +912025534157 :: Panchale Restaurant
+(171) +912026634443 :: Rush Hours
+(172) +919922434602 :: Kuk-Du-Ku
+(174) +912032415858 :: Purepur Kolhapur
+(175) +912025532088 :: Hotel Pathik
+(176) +912027421555 :: Ratna Hotel
+(177) +912024361811 :: Ravi Kiran Restaurant
+(178) +912027422769 :: Anand Restaurant
+(180) +912032311466 :: Nihal Fast Food
+(181) +919762502226 :: Lazy Pipes Restaurant
+(183) +912024457799 :: R Bhagat Tarachand Restaurant
+(184) +912026340829 :: Nayab Hotel
+(185) +912024433786 :: Swami's Pure Veg
+(186) +912026807037 :: Clover Restaurant
+(187) +919890310111 :: NCC Canteen
+(188) +912032418877 :: Abacha Dhaba
+(189) +912027652222 :: Girija Restaurant
+(191) +912024282090 :: Hotel Jaipur Garden
+(192) +912026615510 :: Balaji Hotel
+(194) +912024440119 :: Suras Dining Hall
+(195) +919823710106 :: Jayshrees Garden Veg Restaurant
+(197) +912024210763 :: Sonali Restaurant
+(198) +912026353370 :: Sangam Hotel
+(202) +912032513736 :: Radhakrishna Pure Veg Restaurant
+(203) +912024492812 :: Sapna Hotel
+(204) +912025452236 :: Solkadi Restaurant
+(205) +912022923211 :: Rudra Garden Restaurant
+(206) +918007008989 :: Zakaas The Food Joint
+(207) +912025533870 :: Bhairavnath Lunch Home
+(208) +919890035155 :: Oven Fresh Foods
+(210) +912060300189 :: Navmi Pure Veg Restaurant
+(213) +912027371977 :: Sai Palace Family Restaurant
+(214) +912024455412 :: Durga Restaurant
+(215) +918551006481 :: Vishal Restaurant
+(217) +912025899900 :: Shiv Sagar Hotel
+(219) +912027480280 :: Abhinandan Pure Veg Restaurant
+(220) +912024353096 :: Sahiba Fast Food
+(221) +918055203073 :: Punjabi Junction
+(222) +912027280489 :: Dhanashree Restaurant
+(223) +919272771765 :: Chaitanya Garden
+(225) +912026345421 :: Kohinoor Restaurant
+(226) +912026125791 :: Vandana Pure Veg Restaurant
+(227) +912025460615 :: Pallavi Restaurant
+(228) +912026993486 :: Aswad Khanawal
+(229) +912026122691 :: Central Restaurant
+(231) +919371092085 :: Armaan's
+(232) +912132275346 :: Hotel Runwara
+(234) +917721982121 :: Classe
+(240) +912024464123 :: Chandan Restaurant
+(242) +912065290805 :: Kera - The Taste Of South Indian Food
+(245) +912027278820 :: Arch Angel
+(247) +912025880339 :: Polka Dots
+(249) +912024272721 :: Purple Cherry Restaurant
+(251) +912026151369 :: lL Fungo Magico Italian & Mexican Restaurant
+(252) +912025812898 :: Chopstick Chinese Centre
+(253) +919373334309 :: Lovely Restaurant
+(256) +912060600392 :: Food Shack Restaurant
+(257) +919823443289 :: Makkhan Maar Ke
+(259) +912025880771 :: Hyderabadi Spice
+(260) +918237329683 :: I'm Lion
+(262) +912064164204 :: Apna Punjab
+(264) +912027437786 :: Suphia Restaurant
+(265) +912025384963 :: Ruky's
+(266) +912027415270 :: Shri Ganesh Restaurant
+(267) +912032344966 :: Hyderabad House
+(268) +919850365487 :: D Palace Restaurant
+(270) +912026053374 :: Karim Restaurant
+(271) +919766313213 :: Golden Punjab Restaurant
+(273) +919923493904 :: Rush Hrs
+(274) +919890693339 :: The Loft
+(275) +917875821227 :: Cafe Mocambo Grille
+(276) +912024445777 :: Rassaa Family Restaurant
+(277) +919326036411 :: La Italian Slice
+(279) +919922558891 :: Katraj Junction
+(283) +912040024857 :: Gurdjieff Restaurant
+(286) +919011141661 :: SKS Katthi Kabab Rolls
+(287) +918308018822 :: Maa Roties And Curries
+(288) +912064107731 :: Nisarga Restaurant And Bar
+(289) +919595749817 :: Mount Zion
+(291) +912060603114 :: Tutto Bene Delicatessen
+(292) +917276091020 :: Food United
+(295) +919158352929 :: Bay Leaf Bistro
+(296) +919657003169 :: Ken's Kitchen
+(297) +912060505500 :: Bombay South Cafe
+(298) +918411860030 :: Pai BBQ Lounge
+(299) +919890664400 :: Punjabi Dhaba
+(301) +912067223437 :: Bong Ltaliano
+(302) +912064016001 :: Shree Sagar
+(306) +912026133535 :: La Pizzeria
+(307) +918805548868 :: Flambe Food Court
+(308) +912040104000 :: Time After Time
+(309) +918286086955 :: Grillicious
+(310) +919119442800 :: Spice Kolhapur
+(311) +9102027472012-13 :: Eternia
+(312) +919860522234 :: Mini Punjab Garden Restaurant
+(314) +912026059001 :: Pizza Express
+(315) +918975231010 :: Hotel Pyramid
+(316) +912025532940 :: Magnolia
+(317) +912026050505 :: Favola Restaurant
+(318) +912026134632 :: Place Touch Sizzler
+(321) +919011177133 :: Hotel Sameekshaa
+(322) +912066044100 :: Dosa Dinner
+(324) +912026205000 :: Chequered Flag
+(325) +912040009999 :: Seasons Restaurant
+(326) +912041004100 :: Asia Bleu
+(327) +912026111389 :: Yoko Sizzlers
+(328) +912025399999 :: Signature
+(330) +912066025555 :: Whispering Bamboos
+(331) +912040159555 :: Kokum Restaurant
+(332) +912025534567 :: Puran Da Dhaba
+(333) +912026167777 :: Kebab Hut
+(334) +912025531511 :: Sharavaree
+(335) +912041002200 :: Tamarind Restaurant
+(337) +912040262626 :: Cascade
+(338) +912039880333 :: Pizzeria
+(339) +912025286276 :: Bohemian
+(340) +912114282505 :: Baywatch Branto
+(341) +912114279654 :: Fiesta Restaurant
+(342) +912114273852 :: Fariyas Holiday Resort
+(343) +912026168555 :: Sicilia
+(344) +912066832345 :: Spice Kitchen
+(345) +912066013897 :: Yana Sizzlers And Wok
+(348) +912066289999 :: Soy
+(351) +912040218000 :: Oasis
+(352) +912067210021 :: Prego
+(353) +912039848484 :: Zodiac Restaurant
+(354) +912027060606 :: The Great Kabab Factory
+(355) +912026124501 :: Yogi Tree
+(357) +912030950400 :: Chilis
+(358) +918888054442 :: Pesto Pesto
+(359) +919422037704 :: Garwa Hills- Nazaara (Hill View)
+(360) +918007770805 :: Cream Centre
+(361) +912067313333 :: Level 12
+(362) +912066862200 :: Cafe Bay Leaf
+(363) +91202415151 :: Atithya Multi Cuisine
+(365) +912025666565 :: Aphrodite
+(366) +912065600191 :: Sigree Restaurant
+(370) +912114712468 :: Terrazzo
+(371) +912030660033 :: Flavours Restaurant
+(372) +912022951300 :: Daulat Garden Restaurant
+(373) +912039406699 :: Panash
+(375) +912067248181 :: Momo Cafe
+(376) +912026360629 :: Kwality Restaurant
+(379) +919552194400 :: Le Kebabiere
+(380) +912026052180 :: Terttulia
+(381) +912067210000 :: Seasonal Tastes
+(382) +912026145613 :: Chinese Room
+(383) +912025455001 :: Kobe Sizzlers
+(385) +912025449099 :: Heaven Garden
+(386) +912026613360 :: Bounty Sizzlers Restaurant
+(387) +919623898899 :: Fountain Inn Restaurant
+(389) +912026123610 :: Zamu's Place
+(390) +912025449448 :: Subha Family Restaurant
+(392) +919422080800 :: Rajwada Restaurant
+(393) +912025662052 :: Hotel Saileela
+(394) +912025676893 :: Cafe Goodluck
+(395) +912025662161 :: Eden Court Restaurant
+(396) +912065104871 :: Swastik Multicusine Restaurant
+(397) +912026362667 :: King's Restaurant
+(398) +912027400192 :: Chahul Garden Restaurant
+(401) +912040077373 :: Papa John's
+(402) +919422011883 :: Hotel Amit
+(404) +912032908687 :: Baghban Chef
+(405) +912026633293 :: Daiwong Restaurant
+(406) +912024368214 :: Manali Restaurant
+(408) +912025536542 :: Akash Restaurant
+(409) +912022952100 :: Nivant Garden Restaurant
+(411) +912040046171 :: Marrakesh
+(412) +912065005566 :: Mozzarella
+(414) +912025231583 :: Soundarya Family Garden Restaurant
+(416) +912040047803 :: Red Dragon
+(417) +912032341333 :: Kabab King
+(418) +912026952222 :: Smokies
+(419) +919272402006 :: Burger Barn Cafe
+(420) +912032413536 :: Haka
+(421) +912026811103 :: Domino's
+(422) +919960187995 :: The Bristo Grill
+(423) +918149209650 :: Singh Chin
+(426) +912026150081 :: Prems
+(428) +912025885021 :: Brix Pizza
+(429) +912026880020 :: Giggles Restaurant
+(432) +918308725779 :: Crepeteria
+(433) +919209094605 :: Maratha Mughlai
+(434) +919604053330 :: Oudhiyana
+(437) +912025455039 :: Shiv Prasad Family Restaurant
+(438) +912025452650 :: Four Season Restaurant & Bar
+(439) +912025530436 :: Rainbow Family Restaurant
+(440) +912026699415 :: Appetite Restaurant
+(441) +912026126582 :: Ahlings Restaurant
+(442) +919422003877 :: Hotel President
+(443) +912024346797 :: Shetkari Non Veg
+(446) +912024476847 :: Hotel Peacock
+(447) +912025667633 :: Monsoon Momos
+(450) +919594071458 :: Vedant Pure Veg
+(453) +912060300404 :: Smokin' Joe's
+(454) +912026680474 :: The Flour Works
+(455) +912027490099 :: Hotel Bird Valley
+(457) +919960228533 :: Kabab-E-Que
+(461) +912064102266 :: God's Own Curry
+(462) +917304013040 :: Nizam's Restaurant
+(464) +918149604585 :: R2E
+(465) +919637122558 :: Bird Valley Garden Restaurant
+(466) +919881815050 :: Aabacha Dhaba
+(467) +919766584272 :: The Slackers Cafe
+(468) +912027650022 :: Vasu's Biryani House
+(470) +918149674059 :: Filmy Tadka
+(471) +919372406988 :: Lasa's Kitchen
+(472) +912033994444 :: KFC
+(474) +917798789690 :: Foodiez Den
+(476) +919595969813 :: Seven Shawarma House
+(478) +919579727273 :: Mughal's
+(480) +919561361984 :: Spice And Ice
+(483) +912065211818 :: Punjab Da Sher
+(484) +919762331659 :: New Rachana
+(485) +919604504596 :: Kok Pa Chinese
+(486) +919325749220 :: Hidden Place
+(487) +917620096163 :: Tandoor Point
+(490) +917709033596 :: The Burger House
+(492) +918793811335 :: Sigree Global Grill
+(494) +919763268580 :: The Shanghai Court
+(500) +912065266363 :: Lalaz Mini Punjab XPRS
+(501) +912042225222 :: Cheelizza
+(502) +912065282001 :: Yumwich
+(503) +919766587585 :: V-Deck
+(505) +917709943395 :: Tawa N Tandoor
+(506) +918484000042 :: Meal 40
+(507) +919823216888 :: Marrakesh Restaurant (Head Office)
+(508) +919762100991 :: Sky Garage
+(509) +912065311000 :: Mozzar's Pizzaworks
+(510) +912024462276 :: Hotel Satkar
+(512) +919822813490 :: The Flute
+(514) +919545655355 :: Angaar
+(515) +912065230123 :: Rishi Non Veg
+(516) +917588327780 :: Tandoori Knights
+(517) +918605679992 :: Oryzza
+(518) +919920321512 :: Adda The Hideout
+(519) +918806009732 :: Hashtag - The Multicuisine Bistro
+(521) +912026131818 :: Zen
+(522) +919552085377 :: Abhinaya Reddy's
+(523) +912065289444 :: Lazeez By Hyderabadi Delicacies
+(524) +919325008060 :: Aryan's
+(525) +912065003749 :: Four Seasons Restaurant
+(526) +912041418888 :: Baan Tao
+(527) +919765615038 :: Tamanna Restaurants And Bar
+(531) +919673337776 :: BISO
+(533) +912060017555 :: Atrium
+(534) +912040006200 :: Cilantro
+(535) +918600146983 :: Ammbiir Restaurant
+(537) +912024606060 :: Shorba Family Restaurant
+(538) +919371616422 :: Barbeque Nation
+(539) +918408859624 :: Cafe Snero
+(540) +919911707101 :: Citrus Cafe
+(541) +918554891225 :: Red Peppers Restaurant
+(542) +912026059999 :: The Terrace Bistro
+(543) +919673266729 :: Ghanthi Restaurant
+(546) +912066283535 :: The Eye Club
+(547) +912066846565 :: It's Mirchi
+(548) +912041428888 :: Sen5es
+(549) +912066833333 :: Pasha Restaurant
+(550) +912064015229 :: Aroma Cafe
+(551) +912041044104 :: Atrium Cafe
+(552) +912040131234 :: Kasba
+(553) +912026608777 :: UV Deck
+(554) +912114272914 :: Lonavala Restaurant And Bar Hotel Lonavala
+(555) +91202647474 :: Bistro
+(556) +919763716185 :: Offbeat Foods
+(558) +912026122748 :: Hotel Neelam
+(559) +919892141014 :: Great Punjab Restaurant
+(561) +912040731111 :: Royal Park Restaurant
+(562) +912026834455 :: Manna Restaurant
+(564) +912026361325 :: Sarangi Restaurant
+(565) +912025536200 :: Zen Restaurant
+(566) +919922394441 :: Mineority By Saby
+(567) +912030643300 :: Orchid
+(569) +919545556944 :: Bistro Italian Deli
+(570) +912026132331 :: Karia Hotel
+(571) +912066032230 :: Mahesh Lunch Home
+(573) +912025432611 :: Rajmudra Family Restaurant
+(574) +912032911907 :: Baanthai Restaurant
+(575) +912026130509 :: Diamond Restaurant
+(577) +912025425533 :: Samarth Veg Restaurant
+(578) +912026131626 :: George Restaurant
+(580) +912025421701 :: The Taste Restaurant
+(581) +912024475784 :: Abu Foods
+(582) +919822284757 :: Poonam Restaurant
+(583) +912025535606 :: Rajhans Hotel
+(584) +912025885089 :: Drizzle The Restaurant
+(585) +912026053981 :: Coconut Grove
+(586) +912026362749 :: Cafe Diamond Queen
+(587) +912025473596 :: Chandralok Garden Restaurant
+(589) +912025411438 :: Harvest Club Restaurant
+(591) +912025661529 :: Hotel Rachna
+(593) +912024479629 :: Gopi Non Veg
+(594) +919987131352 :: Village The Soul Of India
+(596) +912026347259 :: Priya Restaurant
+(597) +912026991863 :: Nandini Garden
+(598) +919850412615 :: Salokha Restaurant
+(599) +912025535940 :: Span Restaurant
+(600) +912024459044 :: Gaurav Restaurant
+(601) +912025531770 :: Khyber Restaurant
+(602) +912024452241 :: Nidhi Restaurant
+(603) +919422328299 :: Pooja Restaurant
+(604) +912032931635 :: Kimling Chinese Cuisine
+(605) +912024336196 :: Golden Wheel Restaurant
+(608) +912025817839 :: Hotel Sotkur
+(610) +912026873594 :: Hotel Chaitanya
+(611) +912024475981 :: Hotel Vandana Garden
+(612) +912025861415 :: Yash Family Restaurant
+(613) +912025532085 :: China Gate
+(614) +912117262731 :: Hotel Sahyadri
+(615) +912027120980 :: Vishwa Vilas Restaurant
+(617) +912026126138 :: Sahare Dining Hall
+(618) +912114262330 :: Toni Daa Dhaba
+(620) +912066446644 :: Kapila Garden Restaurant
+(621) +912026130095 :: Utsav
+(622) +919371009184 :: Hotel Pritam
+(623) +912132275264 :: Kinara Dhaba
+(624) +912026363687 :: Fire And Ice
+(625) +912027373999 :: Aishwarya Biryani Restaurant
+(626) +912025652571 :: Hotel Sapna
+(627) +919850501901 :: Meghdoot Hotel
+(629) +919822371965 :: Yogi Restaurant
+(630) +912024332377 :: Kalpana Restaurant
+(631) +912025513227 :: Pepinos
+(632) +912026155178 :: Pingale Garden Restaurant
+(634) +912024330655 :: Hotel Swaraj
+(635) +912024461917 :: Hotel Tarang
+(637) +912027612450 :: Chetna Bar & Restaurant
+(638) +912024464319 :: Curry Spices
+(640) +912026633224 :: Invitation
+(641) +912032314133 :: Khaiber Restaurant
+(642) +912027013948 :: Madira Restaurant & Bar
+(644) +912026340782 :: Oasis Restaurant
+(645) +912026831746 :: Fresh Touch Restaurant
+(646) +919422016747 :: Platinum Restaurant
+(649) +912025679669 :: 96 K Restaurant
+(651) +912026331343 :: Nisha Restaurant
+(652) +912026145707 :: Poona Goan Restaurant
+(653) +912026438584 :: Agra Restaurant
+(654) +912065002265 :: Blue Lagoon Restaurant
+(655) +912066118785 :: Sapatagiri Restaurant
+(656) +912024430937 :: Hotel Aditya
+(657) +912024273030 :: Desi Tadka Restaurant
+(658) +919766234250 :: Hotel Sandeep
+(659) +912027019528 :: Hotel Nityanand
+(660) +919326028529 :: Moej Restaurant
+(661) +912022953272 :: Up And Above Restaurant
+(662) +912024216121 :: Chick Quick Restaurant
+(663) +912032502862 :: Khana Peena Jeena
+(664) +912025532965 :: Sun And Moon Restaurant
+(666) +912069498189 :: Pinak Hotel
+(667) +912025662656 :: Koyla - The Hyderabad House
+(669) +912040045450 :: Saat Handi Restaurant
+(670) +912026998021 :: Priyanka Restaurant
+(671) +912025512452 :: Sudama Hotel
+(672) +919881344138 :: Sai Garden
+(673) +912030581110 :: Suonmoi Chinese Restaurant
+(674) +912032510702 :: Club CPR Restaurant
+(675) +912027012528 :: Nityanand Hotel
+(676) +912027145275 :: Sher-E-Punjab Restaurant
+(677) +912026991626 :: Siddheshwar Restaurant
+(679) +912114235645 :: Hotel Shriman
+(680) +919763113126 :: Abhishek Hotel
+(681) +912027353738 :: Suhas Dining Hall
+(682) +912025533411 :: Mamata Restaurant
+(684) +912024451635 :: Hotel Sharda
+(685) +912024497924 :: Hotel Darbar
+(686) +912024392483 :: Abhiruchi Cottage Restaurant
+(687) +912024395049 :: Relax Garden
+(689) +912025381058 :: Kasturi Hotel
+(690) +912027186081 :: Aradhana Garden Restaurant
+(691) +912025822650 :: Royal Restaurant
+(692) +912032415904 :: Ankur Restaurant
+(693) +912027411696 :: Hotel Pravin
+(695) +919049042007 :: Ganesh Kripa Idli Dosa Centre
+(696) +912025435393 :: Kanika Restaurant
+(2) +912025656517 :: Aryan Veg Restaurant
