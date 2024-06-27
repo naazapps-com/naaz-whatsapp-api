@@ -1,46 +1,33 @@
 {
-  "name": "whatsapp-api",
+  "name": "napps-whatsapp-api",
   "version": "1.0.0",
-  "description": "Whatsapp api by Naaz Applications",
-  "main": "app.js",
+  "description": "Whatsapp API by Mahdian",
+  "main": "app-multiple-accounts.js",
   "scripts": {
-    "start": "node app.js",
-    "start:dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "golive": "lt --port 8000"
+    "start": "node app-multiple-accounts.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "whatsapp-api",
     "node.js"
   ],
-  "author": "azam",
+  "author": "Azam",
   "license": "MIT",
   "dependencies": {
     "basic-auth": "^2.0.1",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "express-fileupload": "^1.2.0",
-    "express-validator": "^6.9.2",
-    "http": "0.0.1-security",
-    "localtunnel": "^2.0.2",
-    "mime-types": "^2.1.32",
-    "playwright-core": "^1.24.2",
-    "qrcode": "^1.4.4",
-    "socket.io": "2.3.0",
-    "axios": "^1.4.0",
-    "dotenv": "^16.3.1",
-    "fs": "^0.0.1-security",
-    "https-proxy-agent": "^7.0.1",
-    "mysql2": "^3.6.0",
-    "mysql2-promise": "^0.1.4",
-    "node-cron": "^3.0.2",
-    "puppeteer": "^21.0.2",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "express-validator": "^7.0.1",
+    "nodemon": "^3.1.0",
+    "npm": "^10.6.0",
+    "punycode": "^2.3.1",
+    "puppeteer": "^22.7.1",
+    "qrcode": "^1.5.3",
     "qrcode-terminal": "^0.12.0",
-    "request": "^2.88.2",
-    "socks-proxy-agent": "^8.0.1",
-    "whatsapp-web.js": "^1.21.1-alpha.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
+    "socket.io": "^4.7.5",
+    "update": "^0.7.4",
+    "whatsapp-web.js": "^1.23.0"
   }
 }

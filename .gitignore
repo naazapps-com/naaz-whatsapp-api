@@ -1,3 +1,6 @@
-node_modules
-wweb_auth
-.wwebjs_cache
+.wwebjs_*
+/node_modules
+/node_modules/*
+npm-debug.log
+package-lock.json
+.vscode/sftp.json

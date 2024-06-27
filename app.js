@@ -1,435 +1,201 @@
-const { Client, MessageMedia, LocalAuth, NoAuth } = require('whatsapp-web.js');
-const express = require('express');
-const { body, validationResult } = require('express-validator');
-const socketIO = require('socket.io');
-const qrcode = require('qrcode');
-const http = require('http');
-const fs = require('fs');
-const { phoneNumberFormatter } = require('./helpers/formatter');
-const fileUpload = require('express-fileupload');
-const axios = require('axios');
-const mime = require('mime-types');
-const auth = require('basic-auth')
+const { Client, MessageMedia } = require("whatsapp-web.js");
+const express = require("express");
+const { body, validationResult } = require("express-validator");
+const socketIO = require("socket.io");
+const qrcode = require("qrcode");
+const http = require("http");
+const fs = require("fs");
+const { phoneNumberFormatter } = require("./helpers/formatter");
+const fileUpload = require("express-fileupload");
+const axios = require("axios");
 const port = process.env.PORT || 8000;
+
 const app = express();
 const server = http.createServer(app);
 const io = socketIO(server);
-var path = require('path');
-const cors = require('cors');
-const { getMediaFiles } = require('./getMedia');
 
-global.appRoot = path.resolve(__dirname);
-
-app.use(cors())
 app.use(express.json());
-app.use(express.urlencoded({
-  extended: true
-}));
+app.use(
+  express.urlencoded({
+    extended: true,
+  })
+);
+app.use(
+  fileUpload({
+    debug: true,
+  })
+);
 
-/**
- * BASED ON MANY QUESTIONS
- * Actually ready mentioned on the tutorials
- * 
- * Many people confused about the warning for file-upload
- * So, we just disabling the debug for simplicity.
- */
-app.use(fileUpload({
-  debug: false
-}));
+const SESSION_FILE_PATH = "./whatsapp-session.json";
+let sessionCfg;
+if (fs.existsSync(SESSION_FILE_PATH)) {
+  sessionCfg = require(SESSION_FILE_PATH);
+}
 
-app.get('/', (req, res) => {
-  let user = auth(req)
-  if (user === undefined || user['name'] !== 'admin' || user['pass'] !== 'naazapps.com') {
-    res.statusCode = 401
-    res.setHeader('WWW-Authenticate', 'Basic realm="Node"')
-    res.end('Unauthorized')
-  } else {
-    res.sendFile('index.html', {
-      root: __dirname
-    });
-  }
+app.get("/", (req, res) => {
+  res.sendFile("index.html", { root: __dirname });
 });
 
 const client = new Client({
-  restartOnAuthFail: true,
   puppeteer: {
     headless: true,
     args: [
-      '--no-sandbox',
-
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-accelerated-2d-canvas",
+      "--no-first-run",
+      "--no-zygote",
+      "--disable-gpu",
     ],
   },
-  authStrategy: new LocalAuth({
-    dataPath: './wweb_auth'
-  }),
-  // authStrategy: new NoAuth(),
+  session: sessionCfg,
+  webVersionCache: { type: 'remote', remotePath: 'https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/2.2412.54.html', }
 });
 
-client.on('message', msg => {
-  if (msg.body == '!ping') {
-    msg.reply('pong');
-  } else if (msg.body == 'good morning') {
-    msg.reply('selamat pagi');
-  } else if (msg.body == '!groups') {
-    client.getChats().then(chats => {
-      const groups = chats.filter(chat => chat.isGroup);
-      if (groups.length == 0) {
-        msg.reply('You have no group yet.');
-      } else {
-        let replyMsg = '*YOUR GROUPS*\n\n';
-        groups.forEach((group, i) => {
-          replyMsg += `ID: ${group.id._serialized}\nName: ${group.name}\n\n`;
-        });
-        replyMsg += '_You can use the group id to send a message to the group._'
-        msg.reply(replyMsg);
-      }
-    });
+client.on("message", (msg) => {
+  if (msg.body == "!ping") {
+    msg.reply("Pong!");
   }
-
-  // NOTE!
-  // UNCOMMENT THE SCRIPT BELOW IF YOU WANT TO SAVE THE MESSAGE MEDIA FILES
-  // Downloading media
-  // if (msg.hasMedia) {
-  //   msg.downloadMedia().then(media => {
-  //     // To better understanding
-  //     // Please look at the console what data we get
-  //     console.log(media);
-
-  //     if (media) {
-  //       // The folder to store: change as you want!
-  //       // Create if not exists
-  //       const mediaPath = './downloaded-media/';
-
-  //       if (!fs.existsSync(mediaPath)) {
-  //         fs.mkdirSync(mediaPath);
-  //       }
-
-  //       // Get the file extension by mime-type
-  //       const extension = mime.extension(media.mimetype);
-
-  //       // Filename: change as you want! 
-  //       // I will use the time for this example
-  //       // Why not use media.filename? Because the value is not certain exists
-  //       const filename = new Date().getTime();
-
-  //       const fullFilename = mediaPath + filename + '.' + extension;
-
-  //       // Save to file
-  //       try {
-  //         fs.writeFileSync(fullFilename, media.data, { encoding: 'base64' }); 
-  //         console.log('File downloaded successfully!', fullFilename);
-  //       } catch (err) {
-  //         console.log('Failed to save the file:', err);
-  //       }
-  //     }
-  //   });
-  // }
 });
 
 client.initialize();
 
 // Socket IO
-io.on('connection', function (socket) {
-  socket.emit('message', 'Connecting...');
+io.on("connection", function (socket) {
+  socket.emit("message", "Connecting ...");
 
-  client.on('qr', (qr) => {
-    console.log('QR RECEIVED', qr);
+  client.on("qr", (qr) => {
+    console.log("QR RECEIVED", qr);
     qrcode.toDataURL(qr, (err, url) => {
-      socket.emit('qr', url);
-      socket.emit('message', 'QR Code received, scan please!');
+      socket.emit("qr", url);
+      socket.emit("message", "QR Received, Scan Please!");
     });
   });
 
-  client.on('ready', () => {
-    socket.emit('ready', 'Whatsapp is ready!');
-    socket.emit('message', 'Whatsapp is ready!');
+  client.on("ready", () => {
+    socket.emit("ready", "Whatsapp is Ready!");
+    socket.emit("message", "Whatsapp is Ready!");
   });
 
-  client.on('authenticated', () => {
-    socket.emit('authenticated', 'Whatsapp is authenticated!');
-    socket.emit('message', 'Whatsapp is authenticated!');
-    console.log('AUTHENTICATED');
-  });
-
-  client.on('auth_failure', function (session) {
-    socket.emit('message', 'Auth failure, restarting...');
-  });
-
-  client.on('disconnected', (reason) => {
-    socket.emit('message', 'Whatsapp is disconnected!');
-    client.destroy();
-    client.initialize();
+  client.on("authenticated", (session) => {
+    socket.emit("ready", "Whatsapp is Authenticated!");
+    socket.emit("message", "Whatsapp is Authenticated!");
+    console.log("AUTHENTICATED", session);
+    sessionCfg = session;
+    fs.writeFile(SESSION_FILE_PATH, JSON.stringify(session), function (err) {
+      if (err) {
+        console.error(err);
+      }
+    });
   });
 });
 
-
+// Check Registered Number
 const checkRegisteredNumber = async function (number) {
   const isRegistered = await client.isRegisteredUser(number);
+
   return isRegistered;
-}
+};
 
-// Delete chat
-app.post('/delete-chat', [
-  body('number').notEmpty(),
-], async (req, res) => {
-  const errors = validationResult(req).formatWith(({
-    msg
-  }) => {
-    return msg;
-  });
-  if (!errors.isEmpty()) {
-    return res.status(422).json({
-      status: false,
-      message: errors.mapped()
+// Send Message
+app.post(
+  "/send-message",
+  [body("number").notEmpty(), body("message").notEmpty()],
+  async (req, res) => {
+    const errors = validationResult(req).formatWith(({ msg }) => {
+      return msg;
     });
-  }
-  const number = phoneNumberFormatter(req.body.number);
-  const isRegisteredNumber = await checkRegisteredNumber(number);
-  const numberToDelete = number.split('@')[0]
-  if (!isRegisteredNumber) {
-    return res.status(422).json({
-      status: false,
-      message: 'The number is not registered'
-    });
-  }
-  client.getChats().then(chats => {
-    const _chats = chats.filter(chat => chat.id.user == numberToDelete);
-    if (_chats.length > 0) {
-      const status = _chats[0].delete()
-      res.status(200).json({
-        status: status,
-        message: status ? 'Deleted' : 'Failed to delete',
-        response: numberToDelete
-      });
-    }
-  }).catch(err => {
-    res.status(500).json({
-      status: false,
-      response: err
-    });
-  });
-});
 
-
-
-// Send message
-app.post('/send-message', [
-  body('number').notEmpty(),
-  body('message').notEmpty(),
-], async (req, res) => {
-  const errors = validationResult(req).formatWith(({
-    msg
-  }) => {
-    return msg;
-  });
-
-  if (!errors.isEmpty()) {
-    return res.status(422).json({
-      status: false,
-      message: errors.mapped()
-    });
-  }
-
-  const number = phoneNumberFormatter(req.body.number);
-  const message = req.body.message;
-
-  const isRegisteredNumber = await checkRegisteredNumber(number);
-
-  if (!isRegisteredNumber) {
-    return res.status(422).json({
-      status: false,
-      message: 'The number is not registered'
-    });
-  }
-
-  client.sendMessage(number, message).then(response => {
-    res.status(200).json({
-      status: true,
-      response: response
-    });
-  }).catch(err => {
-    res.status(500).json({
-      status: false,
-      response: err
-    });
-  });
-});
-
-// Send media
-app.post('/send-media', async (req, res) => {
-  const number = phoneNumberFormatter(req.body.number);
-  const caption = req.body.caption;
-  // const fileUrl = req.body.file;
-  const isRegisteredNumber = await checkRegisteredNumber(number);
-
-  if (!isRegisteredNumber) {
-    return res.status(422).json({
-      status: false,
-      message: 'The number is not registered'
-    });
-  }
-
-  const mediaFiles = getMediaFiles('./SEND_ME');
-  const sentMediasResponse = []
-  mediaFiles.map((mediaPath, i) => {
-    let _caption = ''
-    if (i === 0) {
-      _caption = caption
-    }
-    const media = MessageMedia.fromFilePath(mediaPath);
-    sentMediasResponse.push(mediaPath)
-    client.sendMessage(number, media, {
-      caption: _caption
-    }).catch(err => {
-      console.log(err)
-      res.status(500).json({
-        status: false,
-        response: err
-      });
-    });
-  })
-
-  if (sentMediasResponse.length === mediaFiles.length) {
-    res.status(202).json({
-      status: true,
-      response: sentMediasResponse
-    });
-  }
-
-  // const media = MessageMedia.fromFilePath('./sendMe.jpg');
-  // const file = req.files.file;
-  // const media = new MessageMedia(file.mimetype, file.data.toString('base64'), file.name);
-  // let mimetype;
-  // const attachment = await axios.get(fileUrl, {
-  //   responseType: 'arraybuffer'
-  // }).then(response => {
-  //   mimetype = response.headers['content-type'];
-  //   return response.data.toString('base64');
-  // });
-
-  // const media = new MessageMedia(mimetype, attachment, 'Media');
-
-  //   client.sendMessage(number, media, {
-  //     caption: caption
-  //   }).then(response => {
-  //     res.status(200).json({
-  //       status: true,
-  //       response: response
-  //     });
-  //   }).catch(err => {
-  //     console.log(err)
-  //     res.status(500).json({
-  //       status: false,
-  //       response: err
-  //     });
-  //   });
-});
-
-const findGroupByName = async function (name) {
-  const group = await client.getChats().then(chats => {
-    return chats.find(chat =>
-      chat.isGroup && chat.name.toLowerCase() == name.toLowerCase()
-    );
-  });
-  return group;
-}
-
-// Send message to group
-// You can use chatID or group name, yea!
-app.post('/send-group-message', [
-  body('id').custom((value, { req }) => {
-    if (!value && !req.body.name) {
-      throw new Error('Invalid value, you can use `id` or `name`');
-    }
-    return true;
-  }),
-  body('message').notEmpty(),
-], async (req, res) => {
-  const errors = validationResult(req).formatWith(({
-    msg
-  }) => {
-    return msg;
-  });
-
-  if (!errors.isEmpty()) {
-    return res.status(422).json({
-      status: false,
-      message: errors.mapped()
-    });
-  }
-
-  let chatId = req.body.id;
-  const groupName = req.body.name;
-  const message = req.body.message;
-
-  // Find the group by name
-  if (!chatId) {
-    const group = await findGroupByName(groupName);
-    if (!group) {
+    if (!errors.isEmpty()) {
       return res.status(422).json({
         status: false,
-        message: 'No group found with name: ' + groupName
+        message: errors.mapped(),
       });
     }
-    chatId = group.id._serialized;
+    const number = phoneNumberFormatter(req.body.number);
+    const message = req.body.message;
+
+    const isRegisteredNumber = await checkRegisteredNumber(number);
+
+    // return back if number is not registered
+    // if (!isRegisteredNumber) {
+    // 	return res.status(422).json({
+    // 		status: false,
+    // 		message: 'The Number in Not Registered WhatsApp'
+    // 	});
+    // }
+
+    // skip if number not registered
+    if (!isRegisteredNumber) {
+      return res.status(200).json({
+        status: true,
+        response: "The Number in Not Registered WhatsApp",
+      });
+    }
+
+    client
+      .sendMessage(number, message)
+      .then((response) => {
+        res.status(200).json({
+          status: true,
+          response: response,
+        });
+      })
+      .catch((err) => {
+        res.status(500).json({
+          status: false,
+          response: err,
+        });
+      });
   }
+);
 
-  client.sendMessage(chatId, message).then(response => {
-    res.status(200).json({
-      status: true,
-      response: response
-    });
-  }).catch(err => {
-    res.status(500).json({
-      status: false,
-      response: err
-    });
-  });
-});
-
-// Clearing message on spesific chat
-app.post('/clear-message', [
-  body('number').notEmpty(),
-], async (req, res) => {
-  const errors = validationResult(req).formatWith(({
-    msg
-  }) => {
-    return msg;
-  });
-
-  if (!errors.isEmpty()) {
-    return res.status(422).json({
-      status: false,
-      message: errors.mapped()
-    });
-  }
-
+// Send Media
+app.post("/send-media", async (req, res) => {
   const number = phoneNumberFormatter(req.body.number);
+  const caption = req.body.caption;
+  const fileUrl = req.body.file;
 
+  // skip if number not registered
   const isRegisteredNumber = await checkRegisteredNumber(number);
-
   if (!isRegisteredNumber) {
-    return res.status(422).json({
-      status: false,
-      message: 'The number is not registered'
+    return res.status(200).json({
+      status: true,
+      response: "The Number in Not Registered WhatsApp",
     });
   }
 
-  const chat = await client.getChatById(number);
+  // const media = MessageMedia.fromFilePath('./image-example.png');
+  // const file = req.files.file;
+  // const media = new MessageMedia(file.mimetype, file.data.toString('base64'), file.name);
 
-  chat.clearMessages().then(status => {
-    res.status(200).json({
-      status: true,
-      response: status
+  let mimetype;
+  const attachment = await axios
+    .get(fileUrl, { responseType: "arraybuffer" })
+    .then((response) => {
+      mimetype = response.headers["content-type"];
+      return response.data.toString("base64");
     });
-  }).catch(err => {
-    res.status(500).json({
-      status: false,
-      response: err
+
+  const media = new MessageMedia(mimetype, attachment, "Lampiran Berkas");
+
+  client
+    .sendMessage(number, media, { caption: caption })
+    .then((response) => {
+      res.status(200).json({
+        status: true,
+        response: response,
+      });
+    })
+    .catch((err) => {
+      res.status(500).json({
+        status: false,
+        response: err,
+      });
     });
-  })
 });
 
 server.listen(port, function () {
-  console.log('App running on *: ' + port);
+  console.log("App running on *: " + port);
 });
