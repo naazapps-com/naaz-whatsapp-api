@@ -190,8 +190,22 @@ io.on("connection", function (socket) {
 });
 
 // Send message
-app.post("/send-message", async (req, res) => {
-  console.log(req);
+app.post("/send-message", [
+  body('number').notEmpty(),
+  body('message').notEmpty(),
+], async (req, res) => {
+  const errors = validationResult(req).formatWith(({
+    msg
+  }) => {
+    return msg;
+  });
+
+  if (!errors.isEmpty()) {
+    return res.status(422).json({
+      status: false,
+      message: errors.mapped()
+    });
+  }
 
   const sender = req.body.sender;
   const number = phoneNumberFormatter(req.body.number);
@@ -239,7 +253,7 @@ app.post("/send-media", async (req, res) => {
   const number = phoneNumberFormatter(req.body.number);
   const caption = req.body.caption;
   const fileUrl = req.body.file;
-
+  const imagesFromPayload = req.body?.images;
   const client = sessions.find((sess) => sess.id == sender)?.client;
 
   if (!client) {
@@ -258,31 +272,55 @@ app.post("/send-media", async (req, res) => {
     });
   }
 
-  let mimetype;
-  const attachment = await axios
-    .get(fileUrl, { responseType: "arraybuffer" })
-    .then((response) => {
-      mimetype = response.headers["content-type"];
-      return response.data.toString("base64");
-    });
-
-  const media = new MessageMedia(mimetype, attachment, "Lampiran Berkas");
-
-  client
-    .sendMessage(number, media, { caption: caption })
-    .then((response) => {
-      res.status(200).json({
-        status: true,
-        response: response,
+  let sendCount = 0
+  if (imagesFromPayload) {
+    imagesFromPayload.map(async (imageUrl, i) => {
+      const media = await MessageMedia.fromUrl(imageUrl);
+      let _caption = ''
+      if (i === 0) {
+        _caption = caption
+      }
+      sendCount = sendCount + 1
+      console.log("inside sent")
+      client.sendMessage(number, media, {
+        caption: _caption
+      }).catch(err => {
+        console.log(err)
+        res.status(500).json({
+          status: false,
+          response: err
+        });
       });
     })
-    .catch((err) => {
-      res.status(500).json({
-        status: false,
-        response: err,
-      });
-    });
+  }
+  // ATTACHMENT CODE TO TRY
+  //************************************ */
+  // let mimetype;
+  // const attachment = await axios
+  //   .get(fileUrl, { responseType: "arraybuffer" })
+  //   .then((response) => {
+  //     mimetype = response.headers["content-type"];
+  //     return response.data.toString("base64");
+  //   });
+
+  // const media = new MessageMedia(mimetype, attachment, "Lampiran Berkas");
+
+  // client
+  //   .sendMessage(number, media, { caption: caption })
+  //   .then((response) => {
+  //     res.status(200).json({
+  //       status: true,
+  //       response: response,
+  //     });
+  //   })
+  //   .catch((err) => {
+  //     res.status(500).json({
+  //       status: false,
+  //       response: err,
+  //     });
+  //   });
 });
+
 
 server.listen(port, function () {
   console.log("App running on *: " + port);
