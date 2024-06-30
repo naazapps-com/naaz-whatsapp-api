@@ -90,7 +90,9 @@ const createSession = function (id, description) {
         "--disable-accelerated-2d-canvas",
         "--no-first-run",
         "--no-zygote",
-        "--single-process", // <- this one doesn't works in Windows
+        '--deterministic-fetch',
+        '--disable-features=IsolateOrigins',
+        '--disable-site-isolation-trials',
       ],
     },
     authStrategy: new LocalAuth({
