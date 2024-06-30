@@ -90,9 +90,6 @@ const createSession = function (id, description) {
         "--disable-accelerated-2d-canvas",
         "--no-first-run",
         "--no-zygote",
-        '--deterministic-fetch',
-        '--disable-features=IsolateOrigins',
-        '--disable-site-isolation-trials',
       ],
     },
     authStrategy: new LocalAuth({
