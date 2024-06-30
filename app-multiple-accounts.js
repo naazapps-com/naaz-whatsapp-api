@@ -4,13 +4,13 @@ const socketIO = require("socket.io");
 const qrcode = require("qrcode");
 const http = require("http");
 const fs = require("fs");
-const { phoneNumberFormatter } = require("./helpers/formatter");
+const { phoneNumberFormatter, convertToLocalTime } = require("./helpers/formatter");
 const fileUpload = require("express-fileupload");
 const axios = require("axios");
 const auth = require('basic-auth')
 const port = process.env.PORT || 8000;
 const cors = require('cors');
-const { body } = require("express-validator");
+const { body, validationResult } = require("express-validator");
 
 const app = express();
 const server = http.createServer(app);
@@ -96,10 +96,53 @@ const createSession = function (id, description) {
     authStrategy: new LocalAuth({
       clientId: id,
     }),
-    webVersionCache: { type: 'remote', remotePath: 'https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/2.2412.54.html', }
+    webVersionCache: { type: 'remote', remotePath: 'https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/2.2413.51-beta.html', }
   });
 
   client.initialize();
+
+  client.on("message", async (msg) => {
+    const userMessage = msg.body
+    if (userMessage.length > 0 &&
+      msg?.from.includes('@c') &&
+      msg?._data?.isNewMsg &&
+      !msg?.to.split('@')[0].includes('9520851967')) {
+      const userMessage = msg.body
+      const findGroupByName = async function (name) {
+        const group = await client.getChats().then(chats => {
+          return chats.find(chat =>
+            chat.isGroup && chat.name.toLowerCase() == name.toLowerCase()
+          );
+        });
+        return group;
+      }
+      const group = await findGroupByName('Sales Napps');
+      if (!group) {
+        console.log('No group found with name: ' + group)
+      } else {
+        chatId = group.id._serialized;
+        client.sendMessage(chatId, `
+*${msg?._data?.notifyName || 'Someone'}* replied back on bot ${id}(${msg?.to.split('@')[0]})
+  
+Potential customer details :
+  
+WA Mobile : ${msg?.from.split('@')[0]}
+Name : ${msg?._data?.notifyName}
+Message : *${userMessage}*
+  
+Sent Date & Time : ${convertToLocalTime(msg?._data?.t)}
+  
+Abhi inse chat ya call kare, Jo bhi inse baat kar raha, group mein bata dey!
+
+Focus karne wale messages, jese "Hi,Hey,Hello" ya aese messages jisme lage human ne reply diya hein.
+
+Note : Pehle whatsapp par baat kare, agar na ho to call kare! Aur Deal hone par 10% of Software MRP aapka,
+Jo ki Registration fees par lagta, Minium cost 5000 se start hoti 10000, 15000 tak jaati.
+`)
+      }
+
+    }
+  });
 
   client.on("qr", (qr) => {
     console.log("QR RECEIVED", qr);
@@ -208,6 +251,13 @@ app.post("/send-message", [
     });
   }
 
+  if (req.body.number.length < 9) {
+    return res.status(422).json({
+      status: false,
+      message: "The number is not appropiate!",
+    });
+  }
+
   const sender = req.body.sender;
   const number = phoneNumberFormatter(req.body.number);
   const message = req.body.message;
@@ -248,7 +298,6 @@ app.post("/send-message", [
 
 // Send media
 app.post("/send-media", async (req, res) => {
-  console.log(req);
 
   const sender = req.body.sender;
   const number = phoneNumberFormatter(req.body.number);
@@ -282,16 +331,22 @@ app.post("/send-media", async (req, res) => {
         _caption = caption
       }
       sendCount = sendCount + 1
-      console.log("inside sent")
       client.sendMessage(number, media, {
         caption: _caption
-      }).catch(err => {
-        console.log(err)
-        res.status(500).json({
-          status: false,
-          response: err
+      })
+        .then((response) => {
+          res.status(200).json({
+            status: true,
+            response: response,
+          });
+        })
+        .catch(err => {
+          console.log(err)
+          res.status(500).json({
+            status: false,
+            response: err
+          });
         });
-      });
     })
   }
   // ATTACHMENT CODE TO TRY
@@ -320,6 +375,60 @@ app.post("/send-media", async (req, res) => {
   //       response: err,
   //     });
   //   });
+});
+
+
+// Send message to group
+// You can use chatID or group name, yea!
+app.post('/send-group-message', [
+  body('id').custom((value, { req }) => {
+    if (!value && !req.body.name) {
+      throw new Error('Invalid value, you can use `id` or `name`');
+    }
+    return true;
+  }),
+  body('message').notEmpty(),
+], async (req, res) => {
+  const errors = validationResult(req).formatWith(({
+    msg
+  }) => {
+    return msg;
+  });
+
+  if (!errors.isEmpty()) {
+    return res.status(422).json({
+      status: false,
+      message: errors.mapped()
+    });
+  }
+
+  let chatId = req.body.id;
+  const groupName = req.body.name;
+  const message = req.body.message;
+
+  // Find the group by name
+  if (!chatId) {
+    const group = await findGroupByName(groupName);
+    if (!group) {
+      return res.status(422).json({
+        status: false,
+        message: 'No group found with name: ' + groupName
+      });
+    }
+    chatId = group.id._serialized;
+  }
+
+  client.sendMessage(chatId, message).then(response => {
+    res.status(200).json({
+      status: true,
+      response: response
+    });
+  }).catch(err => {
+    res.status(500).json({
+      status: false,
+      response: err
+    });
+  });
 });
 
 
