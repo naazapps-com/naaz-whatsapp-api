@@ -1,4 +1,5 @@
-const { Client, MessageMedia, LocalAuth } = require("whatsapp-web.js");
+const { MessageMedia, LocalAuth, Client } = require("whatsapp-web.js");
+// const { WhatsAppWebClient } = require("./classes")
 const express = require("express");
 const socketIO = require("socket.io");
 const qrcode = require("qrcode");
@@ -90,12 +91,12 @@ const createSession = function (id, description) {
         "--disable-accelerated-2d-canvas",
         "--no-first-run",
         "--no-zygote",
+        "--single-process", // <- this one doesn't works in Windows
       ],
     },
     authStrategy: new LocalAuth({
       clientId: id,
     }),
-    webVersionCache: { type: 'remote', remotePath: 'https://raw.githubusercontent.com/wppconnect-team/wa-version/main/html/2.2413.51-beta.html', }
   });
 
   client.initialize();
