@@ -75,7 +75,7 @@ const getSessionsFile = function () {
 const createSession = function (id, description) {
   console.log("Creating session: " + id);
   const client = new Client({
-    restartOnAuthFail: true,
+    // restartOnAuthFail: true,
     puppeteer: {
       headless: true,
       args: [
@@ -96,6 +96,7 @@ const createSession = function (id, description) {
     },
     authStrategy: new LocalAuth({
       clientId: id,
+      dataPath: './wweb_auth'
     }),
   });
 
@@ -302,7 +303,6 @@ app.post("/send-media", async (req, res) => {
   const sender = req.body.sender;
   const number = phoneNumberFormatter(req.body.number);
   const caption = req.body.caption;
-  const fileUrl = req.body.file;
   const imagesFromPayload = req.body?.images;
   const client = sessions.find((sess) => sess.id == sender)?.client;
 
@@ -331,23 +331,24 @@ app.post("/send-media", async (req, res) => {
         _caption = caption
       }
       sendCount = sendCount + 1
+      console.log("inside sent")
       client.sendMessage(number, media, {
         caption: _caption
-      })
-        .then((response) => {
-          res.status(200).json({
-            status: true,
-            response: response,
-          });
-        })
-        .catch(err => {
-          console.log(err)
-          res.status(500).json({
-            status: false,
-            response: err
-          });
+      }).catch(err => {
+        console.log(err)
+        res.status(500).json({
+          status: false,
+          response: err
         });
+      });
     })
+  }
+  console.log(sendCount,'sendCount')
+  if (imagesFromPayload.length > 0) {
+    console.log('inside sent count!')
+    res.status(202).json({
+      status: true,
+    });
   }
   // ATTACHMENT CODE TO TRY
   //************************************ */
