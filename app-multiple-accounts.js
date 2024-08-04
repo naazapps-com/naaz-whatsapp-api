@@ -303,7 +303,7 @@ app.post("/send-media", async (req, res) => {
   const sender = req.body.sender;
   const number = phoneNumberFormatter(req.body.number);
   const caption = req.body.caption;
-  const imagesFromPayload = req.body?.images;
+  const imagesFromPayload = req.body?.images || [];
   const client = sessions.find((sess) => sess.id == sender)?.client;
 
   if (!client) {
@@ -345,9 +345,26 @@ app.post("/send-media", async (req, res) => {
   }
   console.log(sendCount,'sendCount')
   if (imagesFromPayload.length > 0) {
-    console.log('inside sent count!')
+    console.log('inside media sent!')
     res.status(202).json({
       status: true,
+    });
+  }
+  else if (imagesFromPayload.length == 0) {
+    console.log('inside message sent!')
+    client
+    .sendMessage(number, caption)
+    .then((response) => {
+      res.status(200).json({
+        status: true,
+        response: response,
+      });
+    })
+    .catch((err) => {
+      res.status(500).json({
+        status: false,
+        response: err,
+      });
     });
   }
   // ATTACHMENT CODE TO TRY

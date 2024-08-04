@@ -1,0 +1,30 @@
+2024/08/05-01:56:14.952 3d08 Reusing MANIFEST D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-azam-napps-1\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/05-01:56:14.953 3d08 Recovering log #138
+2024/08/05-01:56:15.114 3d08 Reusing old log D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-azam-napps-1\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000138.log 
+2024/08/05-01:56:15.114 3d08 Delete type=2 #133
+2024/08/05-01:56:15.114 3d08 Delete type=2 #134
+2024/08/05-01:56:15.114 3d08 Delete type=2 #139
+2024/08/05-01:56:21.072 1f6c Level-0 table #145: started
+2024/08/05-01:56:21.101 1f6c Level-0 table #145: 679305 bytes OK
+2024/08/05-01:56:21.102 1f6c Delete type=0 #138
+2024/08/05-01:56:21.103 1f6c Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/05-01:56:21.118 1f6c Level-0 table #147: started
+2024/08/05-01:56:21.139 1f6c Level-0 table #147: 512 bytes OK
+2024/08/05-01:56:21.140 1f6c Delete type=0 #144
+2024/08/05-01:56:21.140 1f6c Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x19\x00\x00\x05' @ 1175273 : 0
+2024/08/05-01:56:21.140 1f6c Compacting 1@0 + 1@1 files
+2024/08/05-01:56:21.220 1f6c Generated table #148@0: 14967 keys, 346866 bytes
+2024/08/05-01:56:21.220 1f6c Compacted 1@0 + 1@1 files => 346866 bytes
+2024/08/05-01:56:21.221 1f6c compacted to: files[ 0 1 6 0 0 0 0 ]
+2024/08/05-01:56:21.221 1f6c Delete type=2 #147
+2024/08/05-01:56:21.222 1f6c Manual compaction at level-0 from '\x00\x19\x00\x00\x05' @ 1175273 : 0 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/05-01:56:25.496 1f6c Compacting 1@1 + 2@2 files
+2024/08/05-01:56:25.734 1f6c Generated table #149@1: 39523 keys, 2200292 bytes
+2024/08/05-01:56:25.803 1f6c Generated table #150@1: 13000 keys, 2169239 bytes
+2024/08/05-01:56:25.807 1f6c Generated table #151@1: 29 keys, 53446 bytes
+2024/08/05-01:56:25.807 1f6c Compacted 1@1 + 2@2 files => 4422977 bytes
+2024/08/05-01:56:25.815 1f6c compacted to: files[ 0 0 7 0 0 0 0 ]
+2024/08/05-01:56:25.815 1f6c Delete type=2 #140
+2024/08/05-01:56:25.815 1f6c Delete type=2 #141
+2024/08/05-01:56:25.815 1f6c Delete type=2 #145
+2024/08/05-01:56:25.815 1f6c Delete type=2 #148
