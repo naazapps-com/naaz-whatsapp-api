@@ -1,3 +1,6 @@
-2024/08/05-01:56:14.452 1248 Reusing MANIFEST D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-yunus-aonlaonline\Default\Local Storage\leveldb/MANIFEST-000001
-2024/08/05-01:56:14.453 1248 Recovering log #3
-2024/08/05-01:56:14.453 1248 Reusing old log D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-yunus-aonlaonline\Default\Local Storage\leveldb/000003.log 
+2024/10/10-18:28:47.694 3968 Reusing MANIFEST D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-yunus-aonlaonline\Default\Local Storage\leveldb/MANIFEST-000001
+2024/10/10-18:28:47.701 3968 Recovering log #40
+2024/10/10-18:28:47.701 3968 Reusing old log D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-yunus-aonlaonline\Default\Local Storage\leveldb/000040.log 
+2024/10/10-20:29:07.441 382c Level-0 table #44: started
+2024/10/10-20:29:07.447 382c Level-0 table #44: 14195 bytes OK
+2024/10/10-20:29:07.450 382c Delete type=0 #40

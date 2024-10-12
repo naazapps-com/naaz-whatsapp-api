@@ -42,6 +42,7 @@
 <body>
   <br />
   <h2 class="container">Napps - Whatsapp API</h2>
+  <button id="restart-server-btn" style="position: absolute; top: 20px; right: 20px;">Restart Server</button>
   <br />
   <div class="login-wrap d-flex ">
 
@@ -132,6 +133,14 @@
           alert('Wrong Password!')
         }
       });
+      $(document).on("click", "#restart-server-btn", function () {
+        let value = prompt("Admin password");
+        if (value === 'napps.in') {
+          socket.emit("reset-session", { id: null }); // Emit the remove session event
+        } else {
+          alert('Wrong Password!');
+        }
+      });
       socket.on("init", function (data) {
         $(".client-container .client").not(":first").remove();
         // console.log(data);
@@ -182,6 +191,7 @@
         $(`.client.${data.id} #qrcode`).hide();
       });
     });
+
   </script>
 </body>
 

@@ -1,3 +1,18 @@
-2024/08/05-01:56:14.451 37c8 Reusing MANIFEST D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-azam-napps\Default\Local Storage\leveldb/MANIFEST-000001
-2024/08/05-01:56:14.452 37c8 Recovering log #3
-2024/08/05-01:56:14.452 37c8 Reusing old log D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-azam-napps\Default\Local Storage\leveldb/000003.log 
+2024/10/11-15:02:31.906 1420 Reusing MANIFEST D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-azam-napps\Default\Local Storage\leveldb/MANIFEST-000001
+2024/10/11-15:02:32.159 1420 Recovering log #23
+2024/10/11-15:02:32.160 1420 Reusing old log D:\NaazApplication\Production\naaz-whatsapp-api\wweb_auth\session-azam-napps\Default\Local Storage\leveldb/000023.log 
+2024/10/11-16:43:02.749 10d8 Level-0 table #27: started
+2024/10/11-16:43:02.754 10d8 Level-0 table #27: 13343 bytes OK
+2024/10/11-16:43:02.755 10d8 Delete type=0 #23
+2024/10/11-21:09:57.648 af4 Level-0 table #29: started
+2024/10/11-21:09:57.656 af4 Level-0 table #29: 13168 bytes OK
+2024/10/11-21:09:57.657 af4 Delete type=0 #26
+2024/10/11-21:09:57.657 af4 Compacting 4@0 + 1@1 files
+2024/10/11-21:09:57.660 af4 Generated table #30@0: 100 keys, 8037 bytes
+2024/10/11-21:09:57.660 af4 Compacted 4@0 + 1@1 files => 8037 bytes
+2024/10/11-21:09:57.660 af4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/11-21:09:57.661 af4 Delete type=2 #19
+2024/10/11-21:09:57.661 af4 Delete type=2 #22
+2024/10/11-21:09:57.661 af4 Delete type=2 #24
+2024/10/11-21:09:57.661 af4 Delete type=2 #27
+2024/10/11-21:09:57.661 af4 Delete type=2 #29

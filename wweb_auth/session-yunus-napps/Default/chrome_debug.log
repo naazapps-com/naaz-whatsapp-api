@@ -1,19 +1,31 @@
-[0805/015614.251:ERROR:gl_display.cc(508)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
-[0805/015614.269:ERROR:gl_context_egl.cc(371)] eglCreateContext failed with error EGL_SUCCESS
-[0805/015614.406:ERROR:gl_display.cc(508)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
-[0805/015614.406:ERROR:gl_context_egl.cc(371)] eglCreateContext failed with error EGL_SUCCESS
-[0805/015614.406:ERROR:gpu_channel_manager.cc(887)] Failed to create GLES3 context, fallback to GLES2.
-[0805/015614.441:ERROR:command_buffer_proxy_impl.cc(128)] ContextResult::kTransientFailure: Failed to send GpuControl.CreateCommandBuffer.
-[0805/015615.051:INFO:CONSOLE(150)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v3/yf/r/M7EyeZFla9C.js?_nc_x=Ij3Wp8lg5Kz (150)
-[0805/015616.110:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
-[0805/015616.110:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
-[0805/015616.110:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
-[0805/015616.110:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
-[0805/015616.110:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[0805/015616.110:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
-[0805/015616.110:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
-[0805/015616.111:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
-[0805/015616.111:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
-[0805/015616.111:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'usb-unrestricted'.", source:  (0)
-[0805/015616.111:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
-[0805/015616.111:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[1012/210233.926:ERROR:gl_display.cc(508)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
+[1012/210233.926:ERROR:gl_context_egl.cc(371)] eglCreateContext failed with error EGL_SUCCESS
+[1012/210234.156:ERROR:gl_display.cc(508)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
+[1012/210234.156:ERROR:gl_context_egl.cc(371)] eglCreateContext failed with error EGL_SUCCESS
+[1012/210234.156:ERROR:gpu_channel_manager.cc(887)] Failed to create GLES3 context, fallback to GLES2.
+[1012/210234.757:INFO:CONSOLE(123)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v3/yx/r/Z_XwkR_W5qW.js (123)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[1012/210237.369:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[1012/210246.728:INFO:CONSOLE(343)] "WAWebLoggerWorker initialized", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210246.728:INFO:CONSOLE(343)] "[storage] start setSchemaVersions from fts worker interface", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210246.733:INFO:CONSOLE(343)] "[storage] set schema versions: [model-storage,159,fts-storage,8,jobs-storage,1,lru-media-storage-idb,2,offd-storage,4,qpl-storage,0,signal-storage,6,worker-storage,1,sw,2,wawc,14,wawc_db_enc,2]. is worker? true", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210258.288:INFO:CONSOLE(343)] "FTS:Delegate: start indexer", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210258.288:INFO:CONSOLE(343)] "FTS:Delegate: start perform init", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210258.288:INFO:CONSOLE(343)] "FTS:Delegate: schema versions ready", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210258.288:INFO:CONSOLE(343)] "FTS:Delegate: before db initialization", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210258.288:INFO:CONSOLE(343)] "[storage] applying schema versions from [0 to 8] for the database: 'fts-storage'", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210258.288:INFO:CONSOLE(343)] "[storage] applying schema versions from [0 to 159] for the database: 'model-storage'", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210306.777:INFO:CONSOLE(343)] "FTS:Delegate: after db initialization", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210306.777:INFO:CONSOLE(343)] "FTS:Manifest Writer: No changes made, current:['3.1', '1'], latest:['3.1', '1']", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210306.778:INFO:CONSOLE(343)] "FTS:Delegate: Inited", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210306.778:INFO:CONSOLE(343)] "FTS:Delegate: Init indexing ops", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210306.778:INFO:CONSOLE(343)] "FTS:Indexer:indexQueuedBatch: Starting new batch size : 1000", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210306.778:INFO:CONSOLE(343)] "FTS:Indexer:indexQueuedBatch: Completed", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)

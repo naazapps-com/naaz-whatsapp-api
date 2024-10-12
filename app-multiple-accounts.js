@@ -16,7 +16,9 @@ const { body, validationResult } = require("express-validator");
 const app = express();
 const server = http.createServer(app);
 const io = socketIO(server);
-
+var EventEmitter = require('events');
+const emitter = new EventEmitter()
+emitter.setMaxListeners(100)
 app.use(cors())
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
@@ -132,13 +134,6 @@ Name : ${msg?._data?.notifyName}
 Message : *${userMessage}*
   
 Sent Date & Time : ${convertToLocalTime(msg?._data?.t)}
-  
-Abhi inse chat ya call kare, Jo bhi inse baat kar raha, group mein bata dey!
-
-Focus karne wale messages, jese "Hi,Hey,Hello" ya aese messages jisme lage human ne reply diya hein.
-
-Note : Pehle whatsapp par baat kare, agar na ho to call kare! Aur Deal hone par 10% of Software MRP aapka,
-Jo ki Registration fees par lagta, Minium cost 5000 se start hoti 10000, 15000 tak jaati.
 `)
       }
 
@@ -184,6 +179,10 @@ Jo ki Registration fees par lagta, Minium cost 5000 se start hoti 10000, 15000 t
 
     io.emit("remove-session", id);
   });
+
+  client.on("reset-session", (_id) => {
+    process.exit(0)
+  })
 
   sessions.push({
     id: id,
@@ -232,6 +231,12 @@ io.on("connection", function (socket) {
     console.log("Create session: " + data.id);
     createSession(data.id, data.description);
   });
+
+  socket.on("reset-session", function (data) {
+    console.log('Shutting down server...');
+    process.exit(0); 
+  });
+
 });
 
 // Send message
@@ -272,29 +277,45 @@ app.post("/send-message", [
     });
   }
 
-  const isRegisteredNumber = await client.isRegisteredUser(number);
+  try {
+    const isRegisteredNumber = await client.isRegisteredUser(number);
 
-  if (!isRegisteredNumber) {
-    return res.status(422).json({
+    if (!isRegisteredNumber) {
+      return res.status(422).json({
+        status: false,
+        message: "The number is not registered",
+      });
+    }
+
+    client
+      .sendMessage(number, message)
+      .then((response) => {
+        res.status(200).json({
+          status: true,
+          response: response,
+        });
+      })
+      .catch((err) => {
+        res.status(500).json({
+          status: false,
+          response: err,
+        });
+      });
+  } catch (e) {
+    res.status(400).json({
       status: false,
-      message: "The number is not registered",
+      response: String(e),
     });
   }
+});
 
-  client
-    .sendMessage(number, message)
-    .then((response) => {
-      res.status(200).json({
-        status: true,
-        response: response,
-      });
-    })
-    .catch((err) => {
-      res.status(500).json({
-        status: false,
-        response: err,
-      });
-    });
+app.post('/shutdown', (req, res) => {
+  console.log('Shutting down server...');
+  
+  server.close(() => {
+    console.log('Server has been shut down.');
+    process.exit(0); // Exit the process
+  });
 });
 
 // Send media
@@ -312,61 +333,68 @@ app.post("/send-media", async (req, res) => {
       message: `The sender: ${sender} is not found!`,
     });
   }
+  try {
+    const isRegisteredNumber = await client.isRegisteredUser(number);
 
-  const isRegisteredNumber = await client.isRegisteredUser(number);
-
-  if (!isRegisteredNumber) {
-    return res.status(422).json({
-      status: false,
-      message: "The number is not registered",
-    });
-  }
-
-  let sendCount = 0
-  if (imagesFromPayload) {
-    imagesFromPayload.map(async (imageUrl, i) => {
-      const media = await MessageMedia.fromUrl(imageUrl);
-      let _caption = ''
-      if (i === 0) {
-        _caption = caption
-      }
-      sendCount = sendCount + 1
-      console.log("inside sent")
-      client.sendMessage(number, media, {
-        caption: _caption
-      }).catch(err => {
-        console.log(err)
-        res.status(500).json({
-          status: false,
-          response: err
-        });
-      });
-    })
-  }
-  console.log(sendCount,'sendCount')
-  if (imagesFromPayload.length > 0) {
-    console.log('inside media sent!')
-    res.status(202).json({
-      status: true,
-    });
-  }
-  else if (imagesFromPayload.length == 0) {
-    console.log('inside message sent!')
-    client
-    .sendMessage(number, caption)
-    .then((response) => {
-      res.status(200).json({
-        status: true,
-        response: response,
-      });
-    })
-    .catch((err) => {
-      res.status(500).json({
+    if (!isRegisteredNumber) {
+      return res.status(422).json({
         status: false,
-        response: err,
+        message: "The number is not registered",
       });
+    }
+
+    let sendCount = 0
+    if (imagesFromPayload) {
+      imagesFromPayload.map(async (imageUrl, i) => {
+        const media = await MessageMedia.fromUrl(imageUrl);
+        let _caption = ''
+        if (i === 0) {
+          _caption = caption
+        }
+        sendCount = sendCount + 1
+        console.log("inside sent")
+        client.sendMessage(number, media, {
+          caption: _caption
+        }).catch(err => {
+          console.log(err)
+          res.status(500).json({
+            status: false,
+            response: err
+          });
+        });
+      })
+    }
+    console.log(sendCount, 'sendCount')
+    if (imagesFromPayload.length > 0) {
+      console.log('inside media sent!')
+      res.status(202).json({
+        status: true,
+      });
+    }
+    else if (imagesFromPayload.length == 0) {
+      console.log('inside message sent!')
+      client
+        .sendMessage(number, caption)
+        .then((response) => {
+          res.status(200).json({
+            status: true,
+            response: response,
+          });
+        })
+        .catch((err) => {
+          res.status(500).json({
+            status: false,
+            response: err,
+          });
+        });
+    }
+  } catch (e) {
+    res.status(400).json({
+      status: false,
+      response: String(e),
     });
   }
+
   // ATTACHMENT CODE TO TRY
   //************************************ */
   // let mimetype;
@@ -453,3 +481,5 @@ app.post('/send-group-message', [
 server.listen(port, function () {
   console.log("App running on *: " + port);
 });
+
+

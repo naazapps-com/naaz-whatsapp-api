@@ -1,18 +1,19 @@
-[0805/015614.253:ERROR:gl_display.cc(508)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
-[0805/015614.253:ERROR:gl_context_egl.cc(371)] eglCreateContext failed with error EGL_SUCCESS
-[0805/015614.359:ERROR:gl_display.cc(508)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
-[0805/015614.359:ERROR:gl_context_egl.cc(371)] eglCreateContext failed with error EGL_SUCCESS
-[0805/015614.359:ERROR:gpu_channel_manager.cc(887)] Failed to create GLES3 context, fallback to GLES2.
-[0805/015614.925:INFO:CONSOLE(150)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v3/yf/r/M7EyeZFla9C.js?_nc_x=Ij3Wp8lg5Kz (150)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'battery'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'usb-unrestricted'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
-[0805/015616.026:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[1012/210234.020:ERROR:gl_display.cc(508)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
+[1012/210234.020:ERROR:gl_context_egl.cc(371)] eglCreateContext failed with error EGL_SUCCESS
+[1012/210234.185:ERROR:gl_display.cc(508)] EGL Driver message (Error) eglCreateContext: Requested GLES version (3.0) is greater than max supported (2, 0).
+[1012/210234.185:ERROR:gl_context_egl.cc(371)] eglCreateContext failed with error EGL_SUCCESS
+[1012/210234.185:ERROR:gpu_channel_manager.cc(887)] Failed to create GLES3 context, fallback to GLES2.
+[1012/210234.820:INFO:CONSOLE(123)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v3/yx/r/Z_XwkR_W5qW.js (123)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[1012/210237.205:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[1012/210302.796:INFO:CONSOLE(343)] "WAWebLoggerWorker initialized", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210302.798:INFO:CONSOLE(343)] "[storage] start setSchemaVersions from fts worker interface", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
+[1012/210302.799:INFO:CONSOLE(343)] "[storage] set schema versions: [model-storage,159,fts-storage,8,jobs-storage,1,lru-media-storage-idb,2,offd-storage,4,qpl-storage,0,signal-storage,6,worker-storage,1,sw,2,wawc,14,wawc_db_enc,2]. is worker? true", source: https://static.whatsapp.net/rsrc.php/v3/yu/r/tHmilJJWooZ.js (343)
